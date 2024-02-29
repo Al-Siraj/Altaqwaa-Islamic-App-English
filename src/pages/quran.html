@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/fonts.css">
+    <link rel="stylesheet" id="variables_css">
+    <link rel="stylesheet" href="../public/css/barWindow.css">
+    <link rel="stylesheet" href="../public/css/quran.css">
+    <link rel="stylesheet" href="../public/css/animate.min.css">
+    <link rel="stylesheet" href="../public/css/global.css">
+</head>
+
+<body>
+
+    <!-- window bar -->
+
+    <header id="titlebar" onmousedown='return false;' onselectstart='return false;'>
+
+        <div id="drag-region">
+            <div id="window-controls">
+                <div id="minimize">
+                    <img class="icon_bar" srcset="../public/icon/minimize.png" id="icon_minimize_window"
+                        draggable="false" />
+                </div>
+                <div id="minimizable">
+                    <img class="icon_bar" srcset="../public/icon/minimizable.png" id="icon_minimizable_window"
+                        draggable="false" />
+                </div>
+                <div id="closed">
+                    <img class="icon_bar" srcset="../public/icon/closed.png" id="icon_closed_window"
+                        draggable="false" />
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div id="Content">
+
+        <div id="menu" onmousedown='return false;' onselectstart='return false;'>
+            <a href="./home.html">
+                <img src="../public/icon/home.png" class="icon_menu" id="icon_home">
+            </a>
+
+            <a href="../pages/surah.html">
+                <img src="../public/icon/quran.png" class="icon_menu" id="icon_surah">
+            </a>
+
+            <a href="./quran_mp3.html">
+                <img src="../public/icon/sound.png" class="icon_menu" id="icon_menu_mp3">
+            </a>
+
+            <a href="./adhkar.html">
+                <img src="../public/icon/open-hands.png" class="icon_menu" id="icon_adhkar">
+            </a>
+
+            <a href="./hisnmuslim.html">
+                <img src="../public/icon/castle.png" class="icon_menu" id="icon_hisnmuslim">
+            </a>
+
+            <a href="./prayer_time.html">
+                <img src="../public/icon/azan.png" class="icon_menu" id="icon_prayer_time">
+            </a>
+
+            <a href="./settings.html">
+                <img src="../public/icon/settings.png" class="icon_menu" id="icon_settings">
+            </a>
+
+            <a href="./info.html">
+                <img src="../public/icon/info.png" class="icon_menu" id="icon_info">
+            </a>
+
+
+        </div>
+
+        <div id="Quran_Content" class="animate__animated animate__fadeIn">
+            <div class="controls">
+                <div>
+                    <img class="control_icon" id="icon_mp3" src="../public/icon/play.png">
+                    <audio id="audio_mp3" preload="none"></audio>
+                </div>
+                <div>
+                    <img class="control_icon" id="hide_button" src="../public/icon/hide.png">
+                </div>
+                <div>
+                    <svg viewBox="0 0 24 24" fill="none" id="show_tooltips" class="control_icon"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M19 4H5C3.89543 4 3 4.89543 3 6V16C3 17.1046 3.89543 18 5 18H8.17157C8.70201 18 9.21071 18.2107 9.58579 18.5858L11.2929 20.2929C11.6834 20.6834 12.3166 20.6834 12.7071 20.2929L14.4142 18.5858C14.7893 18.2107 15.298 18 15.8284 18H19C20.1046 18 21 17.1046 21 16V6C21 4.89543 20.1046 4 19 4Z"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+                    </svg>
+                </div>
+                <!-- <img  src="../public/icon/hide.png"> -->
+                <svg class="control_icon" id="settings_button" height="40" width="40" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <title />
+                    <line style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" x1="368"
+                        x2="448" y1="128" y2="128" />
+                    <line style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" x1="64"
+                        x2="304" y1="128" y2="128" />
+                    <line style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" x1="368"
+                        x2="448" y1="384" y2="384" />
+                    <line style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" x1="64"
+                        x2="304" y1="384" y2="384" />
+                    <line style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" x1="208"
+                        x2="448" y1="256" y2="256" />
+                    <line style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" x1="64"
+                        x2="144" y1="256" y2="256" />
+                    <circle cx="336" cy="128" r="32"
+                        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" />
+                    <circle cx="176" cy="256" r="32"
+                        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" />
+                    <circle cx="336" cy="384" r="32"
+                        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" />
+                </svg>
+                <div class="settings-menu">
+                    <label>
+                        <input type="checkbox" id="toggleTranslation"> Translation
+                    </label>
+                    <label>
+                        <input type="checkbox" id="toggleTransliteration"> Transliteration
+                    </label>
+                    <label>
+                        <input type="checkbox" id="enableAutoScroll"> Auto-Scroll
+                    </label>
+                </div>
+            </div>
+            <div id="surah_div">
+                <div id="back_to_list" class="animate__fadeIn">
+                    <img src="../public/icon/grid.png" onmousedown='return false;' onselectstart='return false;'>
+                </div>
+                <p id="surah_id"></p>
+                <h1 id="surah_name"></h1>
+                <p id="surah_en_name"></p>
+            </div>
+
+            <div id="Surah_Content" >
+                <!-- <div id="overlay"></div> -->
+                <p id="bsmlh"></p>
+                <p id="surah_text"></p>
+            </div>
+            <div id="audioPlayer" class="hidden">
+                <div class="button-container">
+                    <button id="rewindBtn" class="tooltip">
+                        <span class="tooltiptext">Restart</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="25" height="25">
+                            <path
+                                d="M 25 2 A 2.0002 2.0002 0 1 0 25 6 C 35.517124 6 44 14.482876 44 25 C 44 35.517124 35.517124 44 25 44 C 14.482876 44 6 35.517124 6 25 C 6 19.524201 8.3080175 14.608106 12 11.144531 L 12 15 A 2.0002 2.0002 0 1 0 16 15 L 16 4 L 5 4 A 2.0002 2.0002 0 1 0 5 8 L 9.5253906 8 C 4.9067015 12.20948 2 18.272325 2 25 C 2 37.678876 12.321124 48 25 48 C 37.678876 48 48 37.678876 48 25 C 48 12.321124 37.678876 2 25 2 z"
+                                fill="currentColor" />
+                        </svg>
+                    </button>
+                    <button id="playBtn" class="tooltip">
+                        <span class="tooltiptext">Play</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 2v20.364l16-10.182L4 2Z" fill="currentColor"></path>
+                        </svg>
+                    </button>
+                    <div class="rangeInput">
+                        <input type="number" class="collapsed" id="startTime" min="1" step="1" value="1">
+                        <input type="number" class="collapsed" id="endTime" min="1" step="1" value="2">
+                    </div>
+                    <button id="playInRangeBtn" class="tooltip">
+                        <span class="tooltiptext">Repeat Range</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M16.2929 3.29289C16.6834 2.90237 17.3166 2.90237 17.7071 3.29289L20.7071 6.29289C21.0976 6.68342 21.0976 7.31658 20.7071 7.70711L17.7071 10.7071C17.3166 11.0976 16.6834 11.0976 16.2929 10.7071C15.9024 10.3166 15.9024 9.68342 16.2929 9.29289L17.5857 8.00006H7.85181C5.70703 8.00006 4 9.75511 4 12C4 12.5523 3.55228 13 3 13C2.44772 13 2 12.5523 2 12C2 8.72205 4.53229 6.00006 7.85181 6.00006H17.5858L16.2929 4.70711C15.9024 4.31658 15.9024 3.68342 16.2929 3.29289ZM21 11C21.5523 11 22 11.4477 22 12C22 15.3283 19.2275 18.0001 15.9578 18.0001H6.41427L7.70711 19.2929C8.09763 19.6834 8.09763 20.3166 7.70711 20.7071C7.31658 21.0976 6.68342 21.0976 6.29289 20.7071L3.29289 17.7071C2.90237 17.3166 2.90237 16.6834 3.29289 16.2929L6.29289 13.2929C6.68342 12.9024 7.31658 12.9024 7.70711 13.2929C8.09763 13.6834 8.09763 14.3166 7.70711 14.7071L6.41415 16.0001H15.9578C18.1524 16.0001 20 14.1945 20 12C20 11.4477 20.4477 11 21 11Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </button>
+                    <button id="closeBtn" class="tooltip">
+                        <span class="tooltiptext">Close Player</span>
+                        <svg width="24" height="24" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.782 4.032a.575.575 0 1 0-.813-.814L7.5 6.687 4.032 3.218a.575.575 0 0 0-.814.814L6.687 7.5l-3.469 3.468a.575.575 0 0 0 .814.814L7.5 8.313l3.469 3.469a.575.575 0 0 0 .813-.814L8.313 7.5l3.469-3.468Z"
+                                fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+                <progress id="progressBar" value="0" max="100"></progress>
+
+            </div>
+            <div id="openPlayer"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

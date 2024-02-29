@@ -1,0 +1,1061 @@
+{
+  "revelationPlace": "makkah",
+  "transliteratedName": "Ash-Sharh",
+  "versesCount": 8,
+  "translatedName": "The Relief",
+  "slug": "ash-sharh",
+  "id": "94",
+  "verses": [
+    {
+      "verse_key": "94:1",
+      "text_uthmani": " \u0623\u064e\u0644\u064e\u0645\u0652 \u0646\u064e\u0634\u0652\u0631\u064e\u062d\u0652 \u0644\u064e\u0643\u064e \u0635\u064e\u062f\u0652\u0631\u064e\u0643\u064e",
+      "words": [
+        {
+          "id": 188,
+          "position": 1,
+          "audio_url": "wbw/094_001_001.mp3",
+          "verse_key": "94:1",
+          "verse_id": 6091,
+          "location": "94:1:1",
+          "text_uthmani": "\u0623\u064e\u0644\u064e\u0645\u0652",
+          "code_v1": "\ufba5",
+          "qpc_uthmani_hafs": "\u0623\u064e\u0644\u064e\u0645\u06e1",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 13,
+          "text": "\ufba5",
+          "translation": {
+            "text": "Have not",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "alam",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 189,
+          "position": 2,
+          "audio_url": "wbw/094_001_002.mp3",
+          "verse_key": "94:1",
+          "verse_id": 6091,
+          "location": "94:1:2",
+          "text_uthmani": "\u0646\u064e\u0634\u0652\u0631\u064e\u062d\u0652",
+          "code_v1": "\ufba6",
+          "qpc_uthmani_hafs": "\u0646\u064e\u0634\u06e1\u0631\u064e\u062d\u06e1",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 13,
+          "text": "\ufba6",
+          "translation": {
+            "text": "We expanded",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "nashra\u1e25",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 190,
+          "position": 3,
+          "audio_url": "wbw/094_001_003.mp3",
+          "verse_key": "94:1",
+          "verse_id": 6091,
+          "location": "94:1:3",
+          "text_uthmani": "\u0644\u064e\u0643\u064e",
+          "code_v1": "\ufba7",
+          "qpc_uthmani_hafs": "\u0644\u064e\u0643\u064e",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 13,
+          "text": "\ufba7",
+          "translation": {
+            "text": "for you",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "laka",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 191,
+          "position": 4,
+          "audio_url": "wbw/094_001_004.mp3",
+          "verse_key": "94:1",
+          "verse_id": 6091,
+          "location": "94:1:4",
+          "text_uthmani": "\u0635\u064e\u062f\u0652\u0631\u064e\u0643\u064e",
+          "code_v1": "\ufba8",
+          "qpc_uthmani_hafs": "\u0635\u064e\u062f\u06e1\u0631\u064e\u0643\u064e",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 13,
+          "text": "\ufba8",
+          "translation": {
+            "text": "your breast",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "\u1e63adraka",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 192,
+          "position": 5,
+          "audio_url": null,
+          "verse_key": "94:1",
+          "verse_id": 6091,
+          "location": "94:1:5",
+          "text_uthmani": "\u0661",
+          "code_v1": "\ufba9",
+          "qpc_uthmani_hafs": "\u0661",
+          "char_type_name": "end",
+          "page_number": 596,
+          "line_number": 13,
+          "text": "\ufba9",
+          "translation": {
+            "text": "(1)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910048,
+          "resource_id": 131,
+          "text": "Have We not uplifted your heart for you \u02f9O Prophet\u02fa,",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 329337,
+          "resource_id": 57,
+          "text": "Alam nashrah laka sadrak",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "94:2",
+      "text_uthmani": "\u0648\u064e\u0648\u064e\u0636\u064e\u0639\u0652\u0646\u064e\u0627 \u0639\u064e\u0646\u0643\u064e \u0648\u0650\u0632\u0652\u0631\u064e\u0643\u064e",
+      "words": [
+        {
+          "id": 1361,
+          "position": 1,
+          "audio_url": "wbw/094_002_001.mp3",
+          "verse_key": "94:2",
+          "verse_id": 6092,
+          "location": "94:2:1",
+          "text_uthmani": "\u0648\u064e\u0648\u064e\u0636\u064e\u0639\u0652\u0646\u064e\u0627",
+          "code_v1": "\ufbaa",
+          "qpc_uthmani_hafs": "\u0648\u064e\u0648\u064e\u0636\u064e\u0639\u06e1\u0646\u064e\u0627",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 13,
+          "text": "\ufbaa",
+          "translation": {
+            "text": "And We removed",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "wawa\u1e0da\u02bfn\u0101",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 1362,
+          "position": 2,
+          "audio_url": "wbw/094_002_002.mp3",
+          "verse_key": "94:2",
+          "verse_id": 6092,
+          "location": "94:2:2",
+          "text_uthmani": "\u0639\u064e\u0646\u0643\u064e",
+          "code_v1": "\ufbab",
+          "qpc_uthmani_hafs": "\u0639\u064e\u0646\u0643\u064e",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 13,
+          "text": "\ufbab",
+          "translation": {
+            "text": "from you",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "\u02bfanka",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 1363,
+          "position": 3,
+          "audio_url": "wbw/094_002_003.mp3",
+          "verse_key": "94:2",
+          "verse_id": 6092,
+          "location": "94:2:3",
+          "text_uthmani": "\u0648\u0650\u0632\u0652\u0631\u064e\u0643\u064e",
+          "code_v1": "\ufbac",
+          "qpc_uthmani_hafs": "\u0648\u0650\u0632\u06e1\u0631\u064e\u0643\u064e",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 13,
+          "text": "\ufbac",
+          "translation": {
+            "text": "your burden",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "wiz'raka",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 1364,
+          "position": 4,
+          "audio_url": null,
+          "verse_key": "94:2",
+          "verse_id": 6092,
+          "location": "94:2:4",
+          "text_uthmani": "\u0662",
+          "code_v1": "\ufbad",
+          "qpc_uthmani_hafs": "\u0662",
+          "char_type_name": "end",
+          "page_number": 596,
+          "line_number": 13,
+          "text": "\ufbad",
+          "translation": {
+            "text": "(2)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910049,
+          "resource_id": 131,
+          "text": "relieved you of the burden",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 329190,
+          "resource_id": 57,
+          "text": "WawadaAAna AAanka wizrak",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "94:3",
+      "text_uthmani": "\u0671\u0644\u0651\u064e\u0630\u0650\u0649\u0653 \u0623\u064e\u0646\u0642\u064e\u0636\u064e \u0638\u064e\u0647\u0652\u0631\u064e\u0643\u064e",
+      "words": [
+        {
+          "id": 2546,
+          "position": 1,
+          "audio_url": "wbw/094_003_001.mp3",
+          "verse_key": "94:3",
+          "verse_id": 6093,
+          "location": "94:3:1",
+          "text_uthmani": "\u0671\u0644\u0651\u064e\u0630\u0650\u0649\u0653",
+          "code_v1": "\ufbae",
+          "qpc_uthmani_hafs": "\u0671\u0644\u0651\u064e\u0630\u0650\u064a\u0653",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 13,
+          "text": "\ufbae",
+          "translation": {
+            "text": "Which",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "alladh\u012b",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2547,
+          "position": 2,
+          "audio_url": "wbw/094_003_002.mp3",
+          "verse_key": "94:3",
+          "verse_id": 6093,
+          "location": "94:3:2",
+          "text_uthmani": "\u0623\u064e\u0646\u0642\u064e\u0636\u064e",
+          "code_v1": "\ufbaf",
+          "qpc_uthmani_hafs": "\u0623\u064e\u0646\u0642\u064e\u0636\u064e",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 14,
+          "text": "\ufbaf",
+          "translation": {
+            "text": "weighed upon",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "anqa\u1e0da",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2548,
+          "position": 3,
+          "audio_url": "wbw/094_003_003.mp3",
+          "verse_key": "94:3",
+          "verse_id": 6093,
+          "location": "94:3:3",
+          "text_uthmani": "\u0638\u064e\u0647\u0652\u0631\u064e\u0643\u064e",
+          "code_v1": "\ufbb0",
+          "qpc_uthmani_hafs": "\u0638\u064e\u0647\u06e1\u0631\u064e\u0643\u064e",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 14,
+          "text": "\ufbb0",
+          "translation": {
+            "text": "your back",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "\u1e93ahraka",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2549,
+          "position": 4,
+          "audio_url": null,
+          "verse_key": "94:3",
+          "verse_id": 6093,
+          "location": "94:3:4",
+          "text_uthmani": "\u0663",
+          "code_v1": "\ufbb1",
+          "qpc_uthmani_hafs": "\u0663",
+          "char_type_name": "end",
+          "page_number": 596,
+          "line_number": 14,
+          "text": "\ufbb1",
+          "translation": {
+            "text": "(3)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910050,
+          "resource_id": 131,
+          "text": "which weighed so heavily on your back,",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 329192,
+          "resource_id": 57,
+          "text": "Allathee anqada thahrak",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "94:4",
+      "text_uthmani": "\u0648\u064e\u0631\u064e\u0641\u064e\u0639\u0652\u0646\u064e\u0627 \u0644\u064e\u0643\u064e \u0630\u0650\u0643\u0652\u0631\u064e\u0643\u064e",
+      "words": [
+        {
+          "id": 3914,
+          "position": 1,
+          "audio_url": "wbw/094_004_001.mp3",
+          "verse_key": "94:4",
+          "verse_id": 6094,
+          "location": "94:4:1",
+          "text_uthmani": "\u0648\u064e\u0631\u064e\u0641\u064e\u0639\u0652\u0646\u064e\u0627",
+          "code_v1": "\ufbd3",
+          "qpc_uthmani_hafs": "\u0648\u064e\u0631\u064e\u0641\u064e\u0639\u06e1\u0646\u064e\u0627",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 14,
+          "text": "\ufbd3",
+          "translation": {
+            "text": "And We raised high",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "warafa\u02bfn\u0101",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 3915,
+          "position": 2,
+          "audio_url": "wbw/094_004_002.mp3",
+          "verse_key": "94:4",
+          "verse_id": 6094,
+          "location": "94:4:2",
+          "text_uthmani": "\u0644\u064e\u0643\u064e",
+          "code_v1": "\ufbd4",
+          "qpc_uthmani_hafs": "\u0644\u064e\u0643\u064e",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 14,
+          "text": "\ufbd4",
+          "translation": {
+            "text": "for you",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "laka",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 3916,
+          "position": 3,
+          "audio_url": "wbw/094_004_003.mp3",
+          "verse_key": "94:4",
+          "verse_id": 6094,
+          "location": "94:4:3",
+          "text_uthmani": "\u0630\u0650\u0643\u0652\u0631\u064e\u0643\u064e",
+          "code_v1": "\ufbd5",
+          "qpc_uthmani_hafs": "\u0630\u0650\u0643\u06e1\u0631\u064e\u0643\u064e",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 14,
+          "text": "\ufbd5",
+          "translation": {
+            "text": "your reputation",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "dhik'raka",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 3917,
+          "position": 4,
+          "audio_url": null,
+          "verse_key": "94:4",
+          "verse_id": 6094,
+          "location": "94:4:4",
+          "text_uthmani": "\u0664",
+          "code_v1": "\ufbd6",
+          "qpc_uthmani_hafs": "\u0664",
+          "char_type_name": "end",
+          "page_number": 596,
+          "line_number": 14,
+          "text": "\ufbd6",
+          "translation": {
+            "text": "(4)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910051,
+          "resource_id": 131,
+          "text": "and elevated your renown for you?<sup foot_note=77626>1</sup>",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 329194,
+          "resource_id": 57,
+          "text": "WarafaAAna laka thikrak",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "94:5",
+      "text_uthmani": "\u0641\u064e\u0625\u0650\u0646\u0651\u064e \u0645\u064e\u0639\u064e \u0671\u0644\u0652\u0639\u064f\u0633\u0652\u0631\u0650 \u064a\u064f\u0633\u0652\u0631\u064b\u0627",
+      "words": [
+        {
+          "id": 5270,
+          "position": 1,
+          "audio_url": "wbw/094_005_001.mp3",
+          "verse_key": "94:5",
+          "verse_id": 6095,
+          "location": "94:5:1",
+          "text_uthmani": "\u0641\u064e\u0625\u0650\u0646\u0651\u064e",
+          "code_v1": "\ufbd7",
+          "qpc_uthmani_hafs": "\u0641\u064e\u0625\u0650\u0646\u0651\u064e",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 14,
+          "text": "\ufbd7",
+          "translation": {
+            "text": "So indeed",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "fa-inna",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5271,
+          "position": 2,
+          "audio_url": "wbw/094_005_002.mp3",
+          "verse_key": "94:5",
+          "verse_id": 6095,
+          "location": "94:5:2",
+          "text_uthmani": "\u0645\u064e\u0639\u064e",
+          "code_v1": "\ufbd8",
+          "qpc_uthmani_hafs": "\u0645\u064e\u0639\u064e",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 14,
+          "text": "\ufbd8",
+          "translation": {
+            "text": "with",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "ma\u02bfa",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5272,
+          "position": 3,
+          "audio_url": "wbw/094_005_003.mp3",
+          "verse_key": "94:5",
+          "verse_id": 6095,
+          "location": "94:5:3",
+          "text_uthmani": "\u0671\u0644\u0652\u0639\u064f\u0633\u0652\u0631\u0650",
+          "code_v1": "\ufbd9",
+          "qpc_uthmani_hafs": "\u0671\u0644\u06e1\u0639\u064f\u0633\u06e1\u0631\u0650",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 14,
+          "text": "\ufbd9",
+          "translation": {
+            "text": "the hardship",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "l-\u02bfus'ri",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5273,
+          "position": 4,
+          "audio_url": "wbw/094_005_004.mp3",
+          "verse_key": "94:5",
+          "verse_id": 6095,
+          "location": "94:5:4",
+          "text_uthmani": "\u064a\u064f\u0633\u0652\u0631\u064b\u0627",
+          "code_v1": "\ufbda",
+          "qpc_uthmani_hafs": "\u064a\u064f\u0633\u06e1\u0631\u064b\u0627",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 14,
+          "text": "\ufbda",
+          "translation": {
+            "text": "(is) ease",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "yus'ran",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5274,
+          "position": 5,
+          "audio_url": null,
+          "verse_key": "94:5",
+          "verse_id": 6095,
+          "location": "94:5:5",
+          "text_uthmani": "\u0665",
+          "code_v1": "\ufbdb",
+          "qpc_uthmani_hafs": "\u0665",
+          "char_type_name": "end",
+          "page_number": 596,
+          "line_number": 14,
+          "text": "\ufbdb",
+          "translation": {
+            "text": "(5)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910052,
+          "resource_id": 131,
+          "text": "So, surely with hardship comes ease.",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 329196,
+          "resource_id": 57,
+          "text": "Fa-inna maAAa alAAusri yusra",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "94:6",
+      "text_uthmani": "\u0625\u0650\u0646\u0651\u064e \u0645\u064e\u0639\u064e \u0671\u0644\u0652\u0639\u064f\u0633\u0652\u0631\u0650 \u064a\u064f\u0633\u0652\u0631\u064b\u0627",
+      "words": [
+        {
+          "id": 6456,
+          "position": 1,
+          "audio_url": "wbw/094_006_001.mp3",
+          "verse_key": "94:6",
+          "verse_id": 6096,
+          "location": "94:6:1",
+          "text_uthmani": "\u0625\u0650\u0646\u0651\u064e",
+          "code_v1": "\ufbdc",
+          "qpc_uthmani_hafs": "\u0625\u0650\u0646\u0651\u064e",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 14,
+          "text": "\ufbdc",
+          "translation": {
+            "text": "Indeed",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "inna",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 6457,
+          "position": 2,
+          "audio_url": "wbw/094_006_002.mp3",
+          "verse_key": "94:6",
+          "verse_id": 6096,
+          "location": "94:6:2",
+          "text_uthmani": "\u0645\u064e\u0639\u064e",
+          "code_v1": "\ufbdd",
+          "qpc_uthmani_hafs": "\u0645\u064e\u0639\u064e",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 15,
+          "text": "\ufbdd",
+          "translation": {
+            "text": "with",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "ma\u02bfa",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 6458,
+          "position": 3,
+          "audio_url": "wbw/094_006_003.mp3",
+          "verse_key": "94:6",
+          "verse_id": 6096,
+          "location": "94:6:3",
+          "text_uthmani": "\u0671\u0644\u0652\u0639\u064f\u0633\u0652\u0631\u0650",
+          "code_v1": "\ufbde",
+          "qpc_uthmani_hafs": "\u0671\u0644\u06e1\u0639\u064f\u0633\u06e1\u0631\u0650",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 15,
+          "text": "\ufbde",
+          "translation": {
+            "text": "the hardship",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "l-\u02bfus'ri",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 6459,
+          "position": 4,
+          "audio_url": "wbw/094_006_004.mp3",
+          "verse_key": "94:6",
+          "verse_id": 6096,
+          "location": "94:6:4",
+          "text_uthmani": "\u064a\u064f\u0633\u0652\u0631\u064b\u06ed\u0627",
+          "code_v1": "\ufbdf",
+          "qpc_uthmani_hafs": "\u064a\u064f\u0633\u06e1\u0631\u0657\u0627",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 15,
+          "text": "\ufbdf",
+          "translation": {
+            "text": "(is) ease",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "yus'ran",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 6460,
+          "position": 5,
+          "audio_url": null,
+          "verse_key": "94:6",
+          "verse_id": 6096,
+          "location": "94:6:5",
+          "text_uthmani": "\u0666",
+          "code_v1": "\ufbe0",
+          "qpc_uthmani_hafs": "\u0666",
+          "char_type_name": "end",
+          "page_number": 596,
+          "line_number": 15,
+          "text": "\ufbe0",
+          "translation": {
+            "text": "(6)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910053,
+          "resource_id": 131,
+          "text": "Surely with \u02f9that\u02fa hardship comes \u02f9more\u02fa ease.<sup foot_note=77627>1</sup>",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 329198,
+          "resource_id": 57,
+          "text": "Inna maAAa alAAusri yusra",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "94:7",
+      "text_uthmani": "\u0641\u064e\u0625\u0650\u0630\u064e\u0627 \u0641\u064e\u0631\u064e\u063a\u0652\u062a\u064e \u0641\u064e\u0671\u0646\u0635\u064e\u0628\u0652",
+      "words": [
+        {
+          "id": 7614,
+          "position": 1,
+          "audio_url": "wbw/094_007_001.mp3",
+          "verse_key": "94:7",
+          "verse_id": 6097,
+          "location": "94:7:1",
+          "text_uthmani": "\u0641\u064e\u0625\u0650\u0630\u064e\u0627",
+          "code_v1": "\ufbe1",
+          "qpc_uthmani_hafs": "\u0641\u064e\u0625\u0650\u0630\u064e\u0627",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 15,
+          "text": "\ufbe1",
+          "translation": {
+            "text": "So when",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "fa-idh\u0101",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 7615,
+          "position": 2,
+          "audio_url": "wbw/094_007_002.mp3",
+          "verse_key": "94:7",
+          "verse_id": 6097,
+          "location": "94:7:2",
+          "text_uthmani": "\u0641\u064e\u0631\u064e\u063a\u0652\u062a\u064e",
+          "code_v1": "\ufbe2",
+          "qpc_uthmani_hafs": "\u0641\u064e\u0631\u064e\u063a\u06e1\u062a\u064e",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 15,
+          "text": "\ufbe2",
+          "translation": {
+            "text": "you have finished",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "faraghta",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 7616,
+          "position": 3,
+          "audio_url": "wbw/094_007_003.mp3",
+          "verse_key": "94:7",
+          "verse_id": 6097,
+          "location": "94:7:3",
+          "text_uthmani": "\u0641\u064e\u0671\u0646\u0635\u064e\u0628\u0652",
+          "code_v1": "\ufbe3",
+          "qpc_uthmani_hafs": "\u0641\u064e\u0671\u0646\u0635\u064e\u0628\u06e1",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 15,
+          "text": "\ufbe3",
+          "translation": {
+            "text": "then labor hard",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "fa-in\u1e63ab",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 7617,
+          "position": 4,
+          "audio_url": null,
+          "verse_key": "94:7",
+          "verse_id": 6097,
+          "location": "94:7:4",
+          "text_uthmani": "\u0667",
+          "code_v1": "\ufbe4",
+          "qpc_uthmani_hafs": "\u0667",
+          "char_type_name": "end",
+          "page_number": 596,
+          "line_number": 15,
+          "text": "\ufbe4",
+          "translation": {
+            "text": "(7)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910054,
+          "resource_id": 131,
+          "text": "So once you have fulfilled \u02f9your duty\u02fa, strive \u02f9in devotion\u02fa,",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 329200,
+          "resource_id": 57,
+          "text": "Fa-itha faraghta fansab",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "94:8",
+      "text_uthmani": "\u0648\u064e\u0625\u0650\u0644\u064e\u0649\u0670 \u0631\u064e\u0628\u0651\u0650\u0643\u064e \u0641\u064e\u0671\u0631\u0652\u063a\u064e\u0628",
+      "words": [
+        {
+          "id": 9077,
+          "position": 1,
+          "audio_url": "wbw/094_008_001.mp3",
+          "verse_key": "94:8",
+          "verse_id": 6098,
+          "location": "94:8:1",
+          "text_uthmani": "\u0648\u064e\u0625\u0650\u0644\u064e\u0649\u0670",
+          "code_v1": "\ufbe5",
+          "qpc_uthmani_hafs": "\u0648\u064e\u0625\u0650\u0644\u064e\u0649\u0670",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 15,
+          "text": "\ufbe5",
+          "translation": {
+            "text": "And to",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "wa-il\u0101",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 9078,
+          "position": 2,
+          "audio_url": "wbw/094_008_002.mp3",
+          "verse_key": "94:8",
+          "verse_id": 6098,
+          "location": "94:8:2",
+          "text_uthmani": "\u0631\u064e\u0628\u0651\u0650\u0643\u064e",
+          "code_v1": "\ufbe6",
+          "qpc_uthmani_hafs": "\u0631\u064e\u0628\u0651\u0650\u0643\u064e",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 15,
+          "text": "\ufbe6",
+          "translation": {
+            "text": "your Lord",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "rabbika",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 9079,
+          "position": 3,
+          "audio_url": "wbw/094_008_003.mp3",
+          "verse_key": "94:8",
+          "verse_id": 6098,
+          "location": "94:8:3",
+          "text_uthmani": "\u0641\u064e\u0671\u0631\u0652\u063a\u064e\u0628",
+          "code_v1": "\ufbe7",
+          "qpc_uthmani_hafs": "\u0641\u064e\u0671\u0631\u06e1\u063a\u064e\u0628",
+          "char_type_name": "word",
+          "page_number": 596,
+          "line_number": 15,
+          "text": "\ufbe7",
+          "translation": {
+            "text": "turn your attention",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "fa-ir'ghab",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 9080,
+          "position": 4,
+          "audio_url": null,
+          "verse_key": "94:8",
+          "verse_id": 6098,
+          "location": "94:8:4",
+          "text_uthmani": "\u0668",
+          "code_v1": "\ufbe8",
+          "qpc_uthmani_hafs": "\u0668",
+          "char_type_name": "end",
+          "page_number": 596,
+          "line_number": 15,
+          "text": "\ufbe8",
+          "translation": {
+            "text": "(8)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910055,
+          "resource_id": 131,
+          "text": "turning to your Lord \u02f9alone\u02fa with hope.",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 329202,
+          "resource_id": 57,
+          "text": "Wa-ila rabbika farghab",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- window bar -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/fonts.css">
+    <link rel="stylesheet" id="variables_css">
+    <link rel="stylesheet" href="../public/css/barWindow.css">
+    <link rel="stylesheet" href="../public/css/adhkarTopic.css">
+    <link rel="stylesheet" href="../public/css/animate.min.css">
+</head>
+
+<body>
+
+    <!-- window bar -->
+
+    <header id="titlebar" onmousedown='return false;' onselectstart='return false;'>
+
+        <div id="drag-region">
+            <div id="window-controls">
+                <div id="minimize">
+                    <img class="icon_bar" srcset="../public/icon/minimize.png" id="icon_minimize_window"
+                        draggable="false" />
+                </div>
+                <div id="minimizable">
+                    <img class="icon_bar" srcset="../public/icon/minimizable.png" id="icon_minimizable_window"
+                        draggable="false" />
+                </div>
+                <div id="closed">
+                    <img class="icon_bar" srcset="../public/icon/closed.png" id="icon_closed_window"
+                        draggable="false" />
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div>
+        <div id="menu" onmousedown='return false;' onselectstart='return false;'>
+            <a href="./home.html">
+                <img src="../public/icon/home.png" class="icon_menu" id="icon_home">
+            </a>
+
+            <a href="./quran.html">
+                <img src="../public/icon/quran.png" class="icon_menu" id="icon_surah">
+            </a>
+
+            <a href="./quran_mp3.html">
+                <img src="../public/icon/sound.png" class="icon_menu" id="icon_menu_mp3">
+            </a>
+
+            <a href="./adhkar.html">
+                <img src="../public/icon/open-hands.png" class="icon_menu" id="icon_adhkar">
+            </a>
+
+            <a href="./hisnmuslim.html">
+                <img src="../public/icon/castle.png" class="icon_menu" id="icon_hisnmuslim">
+            </a>
+
+            <a href="./prayer_time.html">
+                <img src="../public/icon/azan.png" class="icon_menu" id="icon_prayer_time">
+            </a>
+
+            <a href="./settings.html">
+                <img src="../public/icon/settings.png" class="icon_menu" id="icon_settings">
+            </a>
+
+            <a href="./info.html">
+                <img src="../public/icon/info.png" class="icon_menu" id="icon_info">
+            </a>
+
+
+        </div>
+        <div class="controls animate__animated animate__fadeIn">
+            <div class="play-container">
+                <div class="button">
+                    <img class="control_icon" id="icon_mp3" src="../public/icon/play.png">
+                    <audio id="audio_mp3" preload="none"></audio>
+                </div>
+                <div class="dropdown">
+                    ◁
+                </div>
+            </div>
+
+            <svg class="control_icon" id="settings_button" height="40" width="40" viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg">
+                <title></title>
+                <line style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+                    x1="368" x2="448" y1="128" y2="128"></line>
+                <line style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+                    x1="64" x2="304" y1="128" y2="128"></line>
+                <line style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+                    x1="368" x2="448" y1="384" y2="384"></line>
+                <line style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+                    x1="64" x2="304" y1="384" y2="384"></line>
+                <line style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+                    x1="208" x2="448" y1="256" y2="256"></line>
+                <line style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+                    x1="64" x2="144" y1="256" y2="256"></line>
+                <circle cx="336" cy="128" r="32"
+                    style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px">
+                </circle>
+                <circle cx="176" cy="256" r="32"
+                    style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px">
+                </circle>
+                <circle cx="336" cy="384" r="32"
+                    style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px">
+                </circle>
+            </svg>
+            <div class="settings-menu">
+                <label>
+                    <input type="checkbox" id="toggleTranslation"> Translation
+                </label>
+                <label>
+                    <input type="checkbox" id="toggleTransliteration"> Transliteration
+                </label>
+            </div>
+            <div class="play-menu">
+                <span>Play Sections:</span>
+            </div>
+        </div>
+        <div id="content" class="animate__animated animate__fadeIn">
+            <div id="topicHeader">
+                <div id="back_to_list" class="animate__fadeIn">
+                    <img src="../public/icon/grid.png" onmousedown='return false;' onselectstart='return false;'>
+                </div>
+                <h1 id="topic"></h1>
+            </div>
+            <div id="adhkarContainer">
+            </div>
+        </div>
+        <div id="audioPlayer" class="hidden">
+            <div class="button-container">
+                <button id="previous">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor"d="M459.5 71.41 288 214.31v83.45l171.5 142.9c20.6 17.04 52.5 2.64 52.5-25.56V96.03c0-27.37-31.9-41.75-52.5-24.62zm-256 0L11.44 231.4c-15.25 12.87-15.25 36.37 0 49.24l192 159.1c20.63 17.12 52.51 2.749 52.51-24.62V95.22c-.85-26.56-31.85-40.94-52.45-23.81z"></path></svg>
+                </button>
+                <button id="playBtn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 2v20.364l16-10.182L4 2Z" fill="currentColor"></path>
+                    </svg>
+                </button>
+                <button id="next">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor"d="m52.51 440.6 171.5-142.9v-83.4L52.51 71.41C31.88 54.28 0 68.66 0 96.03v319.9c0 27.37 31.88 41.77 52.51 24.67zm255.99 0 192-159.1c15.25-12.87 15.25-36.37 0-49.24l-192-159.1c-20.63-17.12-52.51-2.749-52.51 24.62v319.9c.01 25.62 31.91 40.02 52.51 22.92z"></path></svg>
+                </button>
+                <!-- <button id="closeBtn">
+                    <svg width="24" height="24" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.782 4.032a.575.575 0 1 0-.813-.814L7.5 6.687 4.032 3.218a.575.575 0 0 0-.814.814L6.687 7.5l-3.469 3.468a.575.575 0 0 0 .814.814L7.5 8.313l3.469 3.469a.575.575 0 0 0 .813-.814L8.313 7.5l3.469-3.468Z"
+                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+                        </path>
+                    </svg>
+                </button> -->
+            </div>
+            <progress id="progressBar" value="0" max="100"></progress>
+
+        </div>
+        <div id="openPlayer"></div>
+
+    </div>
+
+</html>

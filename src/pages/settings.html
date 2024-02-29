@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/fonts.css">
+    <link rel="stylesheet" id="variables_css">
+    <link rel="stylesheet" href="../public/css/barWindow.css">
+    <link rel="stylesheet" href="../public/css/settings.css">
+    <link rel="stylesheet" href="../public/css/animate.min.css">
+</head>
+
+<body>
+
+    <!-- window bar -->
+
+    <header id="titlebar" onmousedown='return false;' onselectstart='return false;'>
+
+        <div id="drag-region">
+            <div id="window-controls">
+                <div id="minimize">
+                    <img class="icon_bar" srcset="../public/icon/minimize.png" id="icon_minimize_window"
+                        draggable="false" />
+                </div>
+                <div id="minimizable">
+                    <img class="icon_bar" srcset="../public/icon/minimizable.png" id="icon_minimizable_window"
+                        draggable="false" />
+                </div>
+                <div id="closed">
+                    <img class="icon_bar" srcset="../public/icon/closed.png" id="icon_closed_window"
+                        draggable="false" />
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div id="alrt" onmousedown='return false;' onselectstart='return false;'>
+        <div id="blackout"></div>
+        <div class="alert" role="alert">Settings Saved</div>
+    </div>
+
+    <div id="error" onmousedown='return false;' onselectstart='return false;'>
+        <div id="blackout"></div>
+        <div class="alert" >Download could not complete. Please try again.</div>
+    </div>
+
+    <div id="Content">
+
+        <div id="menu" onmousedown='return false;' onselectstart='return false;'>
+            <a href="./home.html">
+                <img src="../public/icon/home.png" class="icon_menu" id="icon_home">
+            </a>
+
+            <a href="./quran.html">
+                <img src="../public/icon/quran.png" class="icon_menu" id="icon_surah">
+            </a>
+
+            <a href="./quran_mp3.html">
+                <img src="../public/icon/sound.png" class="icon_menu" id="icon_menu_mp3">
+            </a>
+
+            <a href="./adhkar.html">
+                <img src="../public/icon/open-hands.png" class="icon_menu" id="icon_adhkar">
+            </a>
+
+            <a href="./hisnmuslim.html">
+                <img src="../public/icon/castle.png" class="icon_menu" id="icon_hisnmuslim">
+            </a>
+
+            <a href="./prayer_time.html">
+                <img src="../public/icon/azan.png" class="icon_menu" id="icon_prayer_time">
+            </a>
+
+            <a href="./settings.html">
+                <img src="../public/icon/settings.png" class="icon_menu" id="icon_settings">
+            </a>
+
+            <a href="./info.html">
+                <img src="../public/icon/info.png" class="icon_menu" id="icon_info">
+            </a>
+
+
+        </div>
+        
+        <div id="progressModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>Download Progress</h2>
+              <div id="progressBarContainer">
+                <div id="progressBar"></div>
+              </div>
+              <p id="progressText"></p>
+            </div>
+          </div>
+
+        <div id="settings" class="animate__animated animate__fadeIn">
+
+            <div id="alert_settings">
+                <div id="div_alert_settings"  onmousedown='return false;' onselectstart='return false;'>
+
+                    <img src="../public/icon/correct.png" id="alert_settings_icon">
+                    <h3 id="alert_settings_title">
+                        <!-- يتوفر تحديث جديد للتطبيق -->
+                    </h3>
+                    
+                    <h4 id="alert_settings_v">
+                        الإصدار الحالي <span id="app_current_version">v0.0.0</span> الإصدار الأخير <span id="app_latest_version">v0.0.0</span>
+                    </h4>
+                    
+                    <p id="alert_settings_text">
+                        يمكن تحميل التحديث الجديد من خلال المستودع الرسمي على جيتهب
+                    </p>
+                </div>
+            </div>
+
+            <ul class="settings_ul">
+                <li>
+
+                    <div class="settings_right">
+                        <h3 class="settings_title">Enable Offline Mode</h3>
+                        <p class="settings_description">Allows use without an internet connection by downloading audio files to a local directory (connection required for download process).</p>
+                    </div>
+
+                    <div class="settings_left">
+                        <img src="../public/icon/download.png" id="downloadButton"  onmousedown='return false;' onselectstart='return false;'>
+                    </div>
+
+                </li>
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">
+                            التحقق من وجود إصدار جديد
+                        </h3>
+
+                        <p class="settings_description">
+                            التحقق من وجود إصدار جديد لـ تطبيق التقوى من المستودع الرسمي على جيتهب
+                        </p> -->
+                        <h3 class="settings_title">Check for New Version</h3>
+                        <p class="settings_description">Check for latest version of the Taqwa app from the official GitHub repository</p>
+                    </div>
+
+                    <div class="settings_left">
+                        <img src="../public/icon/appupdate.png" id="Check_for_update_icon"  onmousedown='return false;' onselectstart='return false;'>
+                    </div>
+
+                </li>
+
+                <!-- ======= -->
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">
+                            جلب احداثيات الموقع الجغرافي
+                        </h3>
+
+                        <p class="settings_description">
+                            إعادة إنشاء ملف الموقع الجغرافي بإستخدام الـ (IP) عن طريق ip-api.com 
+                        </p> -->
+                        <h3 class="settings_title">Get Current Geographic Location</h3>
+                        <p class="settings_description">Get GPS coordinates using network IP via ip-api.com</p>
+                    </div>
+
+                    <div class="settings_left">
+                        <button id="refresh_button">
+                            <img src="../public/icon/refresh.png" id="refresh_location"  onmousedown='return false;' onselectstart='return false;'>
+                        </button>
+                    </div>
+
+                </li>
+
+                <!-- ======= -->
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">
+                            خط العرض
+                        </h3>
+
+                        <p class="settings_description">
+                            أدخِل إحداثيات نظام تحديد المواقع العالمي (GPS) لخط العرض
+                        </p> -->
+                        <h3 class="settings_title">Latitudinal Position</h3>
+                        <p class="settings_description">Enter your latitudinal GPS position</p>
+                    </div>
+
+                    <div class="settings_left">
+                        <input type="number" placeholder="21.4849" id="latitude">
+                    </div>
+
+                </li>
+
+                <!-- ======= -->
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">
+                            خط الطول
+                        </h3>
+
+                        <p class="settings_description">
+                            أدخِل إحداثيات نظام تحديد المواقع العالمي (GPS) لخط الطول
+                        </p> -->
+                        <h3 class="settings_title">Longitudinal Position</h3>
+                        <p class="settings_description">Enter your longitudinal GPS position</p>
+                    </div>
+
+                    <div class="settings_left">
+                        <input type="number" placeholder="39.192" id="longitude">
+                    </div>
+
+                </li>
+
+                <!-- ======= -->
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">
+                            المنطقة الزمنية
+                        </h3>
+
+                        <p class="settings_description">
+                            أدخِل المنطقة الزمنية (بالإنجليزية: Time zone) الخاص بدولتك
+                        </p> -->
+                        <h3 class="settings_title">Time Zone</h3>
+                        <p class="settings_description">Select your time zone</p>
+                    </div>
+
+                    <div class="settings_left">
+                        <input type="text" placeholder="Asia/Riyadh" id="timezone">
+                    </div>
+
+                </li>
+
+                <!-- ======= -->
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">طريقة حساب أوقات الصلاة</h3> -->
+
+                        <!-- <p class="settings_description">أدخِل طريقة حساب أوقات الصلاة (ام القرى, رابطة العالم الإسلامي, الخ ...)</p> -->
+                        <h3 class="settings_title">Calculation Method for Prayer Times</h3>
+                        <p class="settings_description">Enter the method of calculating prayer times (Umm Al-Qura, Muslim World League, etc...)</p>
+
+                    </div>
+<!-- 
+                    <div class="settings_left">
+                        <select id="Calculation" size="1">
+                            <option value="MuslimWorldLeague" id="MuslimWorldLeague">رابطة العالم الإسلامي</option>
+                            <option value="Egyptian" id="Egyptian">الهيئة المصرية العامة للمساحة</option>
+                            <option value="Karachi" id="Karachi">جامعة العلوم الإسلامية بكراتشي</option>
+                            <option value="UmmAlQura" id="UmmAlQura">جامعة أم القرى بمكة المكرمة</option>
+                            <option value="Dubai" id="Dubai">دبي</option>
+                            <option value="Qatar" id="Qatar">قطر</option>
+                            <option value="Kuwait" id="Kuwait">الكويت</option>
+                            <option value="Singapore" id="Singapore">سنغافورة وماليزيا وإندونيسيا</option>
+                            <option value="Turkey" id="Turkey">طريقة ديانت المستخدمة في تركيا</option>
+                            <option value="Tehran" id="Tehran">معهد الجيوفيزياء بجامعة طهران</option>
+                            <option value="NorthAmerica" id="NorthAmerica">يمكن استخدامه لأمريكا الشمالية</option>
+                        </select>
+                    </div> -->
+                    <div class="settings_left">
+                        <select id="Calculation" size="1">
+                            <option value="MuslimWorldLeague" id="MuslimWorldLeague">Muslim World League</option>
+                            <option value="Egyptian" id="Egyptian">Egyptian General Authority of Survey</option>
+                            <option value="Karachi" id="Karachi">Islamic University, Karachi</option>
+                            <option value="UmmAlQura" id="UmmAlQura">Umm Al-Qura University, Makkah</option>
+                            <option value="Dubai" id="Dubai">Dubai</option>
+                            <option value="Qatar" id="Qatar">Qatar</option>
+                            <option value="Kuwait" id="Kuwait">Kuwait</option>
+                            <option value="Singapore" id="Singapore">Singapore, Malaysia, and Indonesia</option>
+                            <option value="Turkey" id="Turkey">Diyanet Method used in Turkey</option>
+                            <option value="Tehran" id="Tehran">Institute of Geophysics, University of Tehran</option>
+                            <option value="NorthAmerica" id="NorthAmerica">North America</option>
+                        </select>
+                    </div>
+
+                </li>
+
+                <!-- ======= -->
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">وقت أذكار الصباح</h3> -->
+                        <h3 class="settings_title">Morning Supplication Time</h3>
+
+                        <!-- <p class="settings_description">وقت التنبيه الصوتي بأذكار الصباح (PM مساء / AM صباح)</p> -->
+                        <p class="settings_description">Set time for the morning supplication notification</p>
+
+                    </div>
+
+                    <div class="settings_left">
+                        <input type="time" id="morning_adhkar_time">
+                    </div>
+
+                </li>
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">وقت أذكار المساء</h3> -->
+                        <h3 class="settings_title">Evening Supplication Time</h3>
+
+                        <!-- <p class="settings_description">وقت التنبيه الصوتي بأذكار المساء (PM مساء / AM صباح)</p> -->
+                        <p class="settings_description">Set time for the evening supplication notification</p>
+
+                    </div>
+
+                    <div class="settings_left">
+                        <input type="time" id="evening_adhkar_time">
+                    </div>
+
+                </li>
+
+                <!-- ======= -->
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">تنبية بدخول وقت الصلاة</h3> -->
+                        <h3 class="settings_title">Prayer Time Notifications</h3>
+
+                        <!-- <p class="settings_description">يقوم هذا الخيار بتفعيل التنبيه الصوتي عند دخول وقت الصلاة بالأذان</p> -->
+                        <p class="settings_description">Enable audio alert for Athan according to prayer times</p>
+
+                    </div>
+
+                    <div class="settings_left">
+                        <label class="switch" id="label_adhan">
+                            <input type="checkbox" checked id="notifications_adhan">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+
+                </li>
+
+                <!-- ======= -->
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">إشعارات أذكار الصباح والمساء</h3> -->
+                        <h3 class="settings_title">Supplication Notifications</h3>
+
+                        <!-- <p class="settings_description">تنبيه صوتي ( أذكار ) عند ساعة مختارة في الإعدادات صباحا و مساءً</p> -->
+                        <p class="settings_description">Enable audio alert for morning and evening supplications according to selected times</p>
+
+                    </div>
+
+                    <div class="settings_left">
+                        <label class="switch" id="label_adhkar">
+                            <input type="checkbox" checked id="notifications_adhkar">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+
+                </li>
+
+                <!-- ======= -->
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">بدأ التطبيق مع النظام</h3> -->
+                        <h3 class="settings_title">Start App on Launch</h3>
+
+                        <!-- <p class="settings_description">بدأ التطبيق مع بداية النظام (لنظام ويندوز فقط)</p> -->
+                        <p class="settings_description">Start app automatically on system start (Windows only)</p>
+
+                    </div>
+
+                    <div class="settings_left">
+                        <label class="switch" id="label_adhkar">
+                            <input type="checkbox" checked id="autostart">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+
+                </li>
+
+                <!-- ======= -->
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">بدأ التطبيق بالخلفية</h3> -->
+                        <h3 class="settings_title">Start App in Background</h3>
+
+                        <!-- <p class="settings_description">بدأ التطبيق بدون واجهة رسومية بالخلفية في شريط الإعلامات (يمكن فتح الواجهة لاحقا)</p> -->
+                        <p class="settings_description">Start app in background without rendering GUI. App can later be opened by selecting icon in system tray (requires restart)</p>
+
+                    </div>
+
+                    <div class="settings_left">
+                        <label class="switch" id="label_adhkar">
+                            <input type="checkbox" id="startHidden">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+
+                </li>
+
+                <!-- ======= -->
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">تصغير التطبيق لقائمة الإعلامات</h3> -->
+                        <h3 class="settings_title">Minimize App to System Tray</h3>
+
+                        <!-- <p class="settings_description">تفعيل هذا الخيار سيجعل التطبيق عند تصغيره يصبح في قائمة الإعلامات بدلا من الشريط (يحتاج إعادة تشغيل)</p> -->
+                        <p class="settings_description">Upon minimizing, the app will only appear in the system tray instead of the taskbar (requires restart)</p>
+
+                    </div>
+
+                    <div class="settings_left">
+                        <label class="switch" id="label_adhkar">
+                            <input type="checkbox" id="minimizeToPanel">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+
+                </li>
+
+                <!-- ======= -->
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">الوضع الليلي</h3> -->
+                        <h3 class="settings_title">Night Mode</h3>
+
+
+                        <!-- <p class="settings_description">عند تفعيل هذا الخيار سيتم تغير شكل التطبيق الى الوضع الليلي</p> -->
+                        <p class="settings_description">Select to enable Night Mode theme</p>
+
+                    </div>
+
+                    <div class="settings_left">
+                        <label class="switch" id="label_adhkar">
+                            <input type="checkbox" id="dark_mode">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+
+                </li>
+
+                <!-- ======= -->
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">مستوى صوت القرآن الكريم</h3> -->
+                        <h3 class="settings_title">Quran Audio Volume</h3>
+
+                        <!-- <p class="settings_description">حرِّك مستوى الصوت إلى المستوى الذي تريده عند الإستماع للقرآن الكريم</p> -->
+                        <p class="settings_description">Adjust the recitation volume of The Noble Quran</p>
+
+                    </div>
+
+                    <div class="settings_left">
+                        <input type="range" value="100" min="1" max="100" id="volume">
+                        <output id="volume_value">100</output>
+                    </div>
+
+                </li>
+
+                <!-- ======= -->
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">مستوى صوت الأذان و الأذكار</h3> -->
+                        <h3 class="settings_title">Athan and Supplication Volume</h3>
+
+                        <!-- <p class="settings_description">حرِّك مستوى الصوت إلى المستوى الذي تريده عند الإستماع للأذان او الأذكار</p> -->
+                        <p class="settings_description">Adjust volume of scheduled Athan and Supplications</p>
+
+                    </div>
+
+                    <div class="settings_left">
+                        <input type="range" value="100" min="1" max="100" id="adhan_volume">
+                        <output id="adhan_volume_value">100</output>
+                    </div>
+
+                </li>
+
+                <!-- ======= -->
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">حجم خط القرآن الكريم</h3> -->
+                        <h3 class="settings_title">Font Size of the Noble Quran</h3>
+
+                        <!-- <p class="settings_description">حجم الخط الخاص بقسم قرائة القرآن الكريم النصي (الإفتراضي 30)</p> -->
+                        <p class="settings_description">Font size for the Quran reading tab (default 45)</p>
+
+                    </div>
+
+                    <div class="settings_left">
+                        <input type="range" value="45" min="25" max="100" id="settings_font_quran">
+                        <output id="settings_font_quran_output">60</output>
+                    </div>
+
+                </li>
+
+                <li>
+
+                    <div class="settings_right">
+                        <!-- <h3 class="settings_title">حجم خط الأذكار</h3> -->
+                        <h3 class="settings_title">Font Size</h3>
+
+                        <!-- <p class="settings_description">حجم الخط الخاص بقسم الأذكار (الإفتراضي 20)</p> -->
+                        <p class="settings_description">Font size for the Supplications tab (default 30)</p>
+                    </div>
+
+                    <div class="settings_left">
+                        <input type="range" value="30" min="15" max="50" id="settings_font_adhkar">
+                        <output id="settings_font_adhkar_output">20</output>
+                    </div>
+
+                </li>
+
+            </ul>
+
+            <!-- <button id="save">حفظ</button> -->
+            <button id="save">Save</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

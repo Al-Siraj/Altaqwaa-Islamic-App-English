@@ -1,0 +1,99 @@
+#icon_surah {
+    background-color: var(--background_div_hover);
+}
+
+#quran {
+    padding-left: 70px;
+    margin: 2rem 1rem 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.surah {
+    padding: 20px;
+    width: calc(70% / 3);
+    margin: 10px 10px 10px 10px;
+    word-wrap: break-word;
+    border-radius: 18px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    color: var(--white);
+    background-color: var(--background_div);
+    box-shadow: 0px 0px 10px 0px #0000001f;
+    border: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.surah:hover {
+    background-color: var(--background_div_hover);
+}
+
+.surah_number_div {
+    background-color: var(--color_light_grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transform: rotate(45deg);
+    -webkit-margin-end: 1rem;
+    margin-inline-end: 1rem;
+}
+
+.surah_number_div>div {
+    transform: rotate(-45deg);
+    font-weight: bold;
+}
+
+.surah_div {
+    display: flex;
+    align-items: center;
+}
+
+.surah_verses {
+    color: var(--color_font_grey);
+}
+
+.surah_name_div {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.surah_name {
+    font-size: 19px;
+    text-align: left;
+    color: var(--white-div);
+}
+
+.surah_name_en {
+    margin-top: 0.1rem;
+    color: var(--color_font_grey);
+    text-align: left;
+}
+
+.diamond {
+    background-color: var(--background_div);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    -webkit-margin-end: 1rem;
+    margin-inline-end: 1rem;
+}
+

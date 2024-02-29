@@ -1,0 +1,196 @@
+#icon_menu_mp3 {
+    background-color: var(--background_div_hover);
+}
+
+#quran_mp3 {
+    width: 100%;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#ul_group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 70px;
+    padding: 0
+}
+
+.li_group {
+    list-style: none;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    background-color: var(--background_div);
+    width: 350px;
+    height: 30px;
+    border-radius: 8px;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px #00000010;
+}
+
+.li_group:hover {
+    background-color: var(--background_div_hover);
+}
+
+#grid_mp3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.name {
+    color: var(--white-div);
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.number {
+    margin-top: 0px;
+    color: var(--color_font_grey);
+}
+
+.icon_mp3,
+.icon_mp3_ddownload {
+    width: 20%;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#Sheikh {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 70px;
+    padding: 0;
+}
+
+#Sheikh_name {
+    color: var(--white-div);
+    font-size: 18px;
+    margin: 0 0 0 0;
+
+}
+
+#Sheikh_rewaya {
+    color: var(--color_font_grey);
+    font-size: 12px;
+    margin: 0 0 0 0;
+    display: none;
+}
+
+#Sheikh li {
+    /* width: max-content; */
+    list-style: none;
+    margin: 10px 10px 10px 10px;
+    background-color: var(--background_div);
+    box-shadow: 0px 0px 10px 0px #00000010;
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+    padding: 5px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#Sheikh li:hover {
+    background-color: var(--background_div_hover);
+}
+
+#reader {
+    /* width: max-content; */
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+#reader_name {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* font-family: 'Quran'; */
+    color: var(--color_font_grey);
+    font-size: 16px;
+}
+
+#quran_mp3_back {
+    display: none;
+    margin-top: 20px;
+    width: 30px;
+    cursor: pointer;
+    right: 100px;
+    position: absolute;
+}
+
+#quran_mp3_name_Sheikh {
+    display: none;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    color: var(--white-div);
+    padding: 10px;
+    background-color: var(--background_div);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #00000010;
+}
+
+#back_to_list {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    width: 21px;
+    height: 21px;
+    padding: 15px;
+    left: calc(70px + 3%);
+    border-radius: 6px;
+    transition: 0.5s ease-in-out;
+    animation-duration: 3s;
+    margin-top: 14px;
+}
+
+#back_to_list:hover {
+    background-color: var(--background_div_hover);
+    transition: 0.5s ease-in-out;
+}
+
+#back_to_list>img {
+    width: 21px;
+    height: 21px;
+}
+
+.header {
+    display: flex;
+    margin-left: 70px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.header_items {
+    flex: 1;
+    width: 33.33%;
+}
+
+#title {
+    margin: 0;
+    text-align: center;
+    padding-top: 14px;
+    flex: 2;
+}

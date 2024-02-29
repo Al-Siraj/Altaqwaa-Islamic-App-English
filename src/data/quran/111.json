@@ -1,0 +1,820 @@
+{
+  "revelationPlace": "makkah",
+  "transliteratedName": "Al-Masad",
+  "versesCount": 5,
+  "translatedName": "The Palm Fiber",
+  "slug": "al-masad",
+  "id": "111",
+  "verses": [
+    {
+      "verse_key": "111:1",
+      "text_uthmani": " \u062a\u064e\u0628\u0651\u064e\u062a\u0652 \u064a\u064e\u062f\u064e\u0627\u0653 \u0623\u064e\u0628\u0650\u0649 \u0644\u064e\u0647\u064e\u0628\u064d \u0648\u064e\u062a\u064e\u0628\u0651\u064e",
+      "words": [
+        {
+          "id": 18,
+          "position": 1,
+          "audio_url": "wbw/111_001_001.mp3",
+          "verse_key": "111:1",
+          "verse_id": 6217,
+          "location": "111:1:1",
+          "text_uthmani": "\u062a\u064e\u0628\u0651\u064e\u062a\u0652",
+          "code_v1": "\ufb88",
+          "qpc_uthmani_hafs": "\u062a\u064e\u0628\u0651\u064e\u062a\u06e1",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "\ufb88",
+          "translation": {
+            "text": "Perish",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "tabbat",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 19,
+          "position": 2,
+          "audio_url": "wbw/111_001_002.mp3",
+          "verse_key": "111:1",
+          "verse_id": 6217,
+          "location": "111:1:2",
+          "text_uthmani": "\u064a\u064e\u062f\u064e\u0627\u0653",
+          "code_v1": "\ufb89",
+          "qpc_uthmani_hafs": "\u064a\u064e\u062f\u064e\u0627\u0653",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "\ufb89",
+          "translation": {
+            "text": "(the) hands",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "yad\u0101",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 20,
+          "position": 3,
+          "audio_url": "wbw/111_001_003.mp3",
+          "verse_key": "111:1",
+          "verse_id": 6217,
+          "location": "111:1:3",
+          "text_uthmani": "\u0623\u064e\u0628\u0650\u0649",
+          "code_v1": "\ufb8a",
+          "qpc_uthmani_hafs": "\u0623\u064e\u0628\u0650\u064a",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "\ufb8a",
+          "translation": {
+            "text": "(of) Abu",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "ab\u012b",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 21,
+          "position": 4,
+          "audio_url": "wbw/111_001_004.mp3",
+          "verse_key": "111:1",
+          "verse_id": 6217,
+          "location": "111:1:4",
+          "text_uthmani": "\u0644\u064e\u0647\u064e\u0628\u064d\u06e2",
+          "code_v1": "\ufb8b",
+          "qpc_uthmani_hafs": "\u0644\u064e\u0647\u064e\u0628\u0656",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "\ufb8b",
+          "translation": {
+            "text": "Lahab",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "lahabin",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 22,
+          "position": 5,
+          "audio_url": "wbw/111_001_005.mp3",
+          "verse_key": "111:1",
+          "verse_id": 6217,
+          "location": "111:1:5",
+          "text_uthmani": "\u0648\u064e\u062a\u064e\u0628\u0651\u064e",
+          "code_v1": "\ufb8c",
+          "qpc_uthmani_hafs": "\u0648\u064e\u062a\u064e\u0628\u0651\u064e",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "\ufb8c",
+          "translation": {
+            "text": "and perish he",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "watabba",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 23,
+          "position": 6,
+          "audio_url": null,
+          "verse_key": "111:1",
+          "verse_id": 6217,
+          "location": "111:1:6",
+          "text_uthmani": "\u0661",
+          "code_v1": "\ufb8d",
+          "qpc_uthmani_hafs": "\u0661",
+          "char_type_name": "end",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "\ufb8d",
+          "translation": {
+            "text": "(1)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910174,
+          "resource_id": 131,
+          "text": "May the hands of Abu Lahab perish, and he \u02f9himself\u02fa perish!",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 332845,
+          "resource_id": 57,
+          "text": "Tabbat yada abee lahabin watab",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "111:2",
+      "text_uthmani": "\u0645\u064e\u0627\u0653 \u0623\u064e\u063a\u0652\u0646\u064e\u0649\u0670 \u0639\u064e\u0646\u0652\u0647\u064f \u0645\u064e\u0627\u0644\u064f\u0647\u064f\u06e5 \u0648\u064e\u0645\u064e\u0627 \u0643\u064e\u0633\u064e\u0628\u064e",
+      "words": [
+        {
+          "id": 949,
+          "position": 1,
+          "audio_url": "wbw/111_002_001.mp3",
+          "verse_key": "111:2",
+          "verse_id": 6218,
+          "location": "111:2:1",
+          "text_uthmani": "\u0645\u064e\u0627\u0653",
+          "code_v1": "\ufb8e",
+          "qpc_uthmani_hafs": "\u0645\u064e\u0627\u0653",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "\ufb8e",
+          "translation": {
+            "text": "Not",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "m\u0101",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 950,
+          "position": 2,
+          "audio_url": "wbw/111_002_002.mp3",
+          "verse_key": "111:2",
+          "verse_id": 6218,
+          "location": "111:2:2",
+          "text_uthmani": "\u0623\u064e\u063a\u0652\u0646\u064e\u0649\u0670",
+          "code_v1": "\ufb8f",
+          "qpc_uthmani_hafs": "\u0623\u064e\u063a\u06e1\u0646\u064e\u0649\u0670",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "\ufb8f",
+          "translation": {
+            "text": "(will) avail",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "aghn\u0101",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 951,
+          "position": 3,
+          "audio_url": "wbw/111_002_003.mp3",
+          "verse_key": "111:2",
+          "verse_id": 6218,
+          "location": "111:2:3",
+          "text_uthmani": "\u0639\u064e\u0646\u0652\u0647\u064f",
+          "code_v1": "\ufb90",
+          "qpc_uthmani_hafs": "\u0639\u064e\u0646\u06e1\u0647\u064f",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "\ufb90",
+          "translation": {
+            "text": "him",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "\u02bfanhu",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 952,
+          "position": 4,
+          "audio_url": "wbw/111_002_004.mp3",
+          "verse_key": "111:2",
+          "verse_id": 6218,
+          "location": "111:2:4",
+          "text_uthmani": "\u0645\u064e\u0627\u0644\u064f\u0647\u064f\u06e5",
+          "code_v1": "\ufb91",
+          "qpc_uthmani_hafs": "\u0645\u064e\u0627\u0644\u064f\u0647\u064f\u06e5",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "\ufb91",
+          "translation": {
+            "text": "his wealth",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "m\u0101luhu",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 953,
+          "position": 5,
+          "audio_url": "wbw/111_002_005.mp3",
+          "verse_key": "111:2",
+          "verse_id": 6218,
+          "location": "111:2:5",
+          "text_uthmani": "\u0648\u064e\u0645\u064e\u0627",
+          "code_v1": "\ufb92",
+          "qpc_uthmani_hafs": "\u0648\u064e\u0645\u064e\u0627",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "\ufb92",
+          "translation": {
+            "text": "and what",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "wam\u0101",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 954,
+          "position": 6,
+          "audio_url": "wbw/111_002_006.mp3",
+          "verse_key": "111:2",
+          "verse_id": 6218,
+          "location": "111:2:6",
+          "text_uthmani": "\u0643\u064e\u0633\u064e\u0628\u064e",
+          "code_v1": "\ufb93",
+          "qpc_uthmani_hafs": "\u0643\u064e\u0633\u064e\u0628\u064e",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 14,
+          "text": "\ufb93",
+          "translation": {
+            "text": "he earned",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "kasaba",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 955,
+          "position": 7,
+          "audio_url": null,
+          "verse_key": "111:2",
+          "verse_id": 6218,
+          "location": "111:2:7",
+          "text_uthmani": "\u0662",
+          "code_v1": "\ufb94",
+          "qpc_uthmani_hafs": "\u0662",
+          "char_type_name": "end",
+          "page_number": 603,
+          "line_number": 14,
+          "text": "\ufb94",
+          "translation": {
+            "text": "(2)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910175,
+          "resource_id": 131,
+          "text": "Neither his wealth nor \u02f9worldly\u02fa gains will benefit him.",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 332834,
+          "resource_id": 57,
+          "text": "Ma aghna AAanhu maluhuwama kasab",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "111:3",
+      "text_uthmani": "\u0633\u064e\u064a\u064e\u0635\u0652\u0644\u064e\u0649\u0670 \u0646\u064e\u0627\u0631\u064b\u0627 \u0630\u064e\u0627\u062a\u064e \u0644\u064e\u0647\u064e\u0628\u064d",
+      "words": [
+        {
+          "id": 2625,
+          "position": 1,
+          "audio_url": "wbw/111_003_001.mp3",
+          "verse_key": "111:3",
+          "verse_id": 6219,
+          "location": "111:3:1",
+          "text_uthmani": "\u0633\u064e\u064a\u064e\u0635\u0652\u0644\u064e\u0649\u0670",
+          "code_v1": "\ufb95",
+          "qpc_uthmani_hafs": "\u0633\u064e\u064a\u064e\u0635\u06e1\u0644\u064e\u0649\u0670",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 14,
+          "text": "\ufb95",
+          "translation": {
+            "text": "He will be burnt",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "saya\u1e63l\u0101",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2626,
+          "position": 2,
+          "audio_url": "wbw/111_003_002.mp3",
+          "verse_key": "111:3",
+          "verse_id": 6219,
+          "location": "111:3:2",
+          "text_uthmani": "\u0646\u064e\u0627\u0631\u064b\u06ed\u0627",
+          "code_v1": "\ufb96",
+          "qpc_uthmani_hafs": "\u0646\u064e\u0627\u0631\u0657\u0627",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 14,
+          "text": "\ufb96",
+          "translation": {
+            "text": "(in) a Fire",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "n\u0101ran",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2627,
+          "position": 3,
+          "audio_url": "wbw/111_003_003.mp3",
+          "verse_key": "111:3",
+          "verse_id": 6219,
+          "location": "111:3:3",
+          "text_uthmani": "\u0630\u064e\u0627\u062a\u064e",
+          "code_v1": "\ufb97",
+          "qpc_uthmani_hafs": "\u0630\u064e\u0627\u062a\u064e",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 14,
+          "text": "\ufb97",
+          "translation": {
+            "text": "of",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "dh\u0101ta",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2628,
+          "position": 4,
+          "audio_url": "wbw/111_003_004.mp3",
+          "verse_key": "111:3",
+          "verse_id": 6219,
+          "location": "111:3:4",
+          "text_uthmani": "\u0644\u064e\u0647\u064e\u0628\u064d\u06e2",
+          "code_v1": "\ufb98",
+          "qpc_uthmani_hafs": "\u0644\u064e\u0647\u064e\u0628\u0656",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 14,
+          "text": "\ufb98",
+          "translation": {
+            "text": "Blazing Flames",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "lahabin",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2629,
+          "position": 5,
+          "audio_url": null,
+          "verse_key": "111:3",
+          "verse_id": 6219,
+          "location": "111:3:5",
+          "text_uthmani": "\u0663",
+          "code_v1": "\ufb99",
+          "qpc_uthmani_hafs": "\u0663",
+          "char_type_name": "end",
+          "page_number": 603,
+          "line_number": 14,
+          "text": "\ufb99",
+          "translation": {
+            "text": "(3)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910176,
+          "resource_id": 131,
+          "text": "He will burn in a flaming Fire,",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 332828,
+          "resource_id": 57,
+          "text": "Sayasla naran thatalahab",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "111:4",
+      "text_uthmani": "\u0648\u064e\u0671\u0645\u0652\u0631\u064e\u0623\u064e\u062a\u064f\u0647\u064f\u06e5 \u062d\u064e\u0645\u0651\u064e\u0627\u0644\u064e\u0629\u064e \u0671\u0644\u0652\u062d\u064e\u0637\u064e\u0628\u0650",
+      "words": [
+        {
+          "id": 4041,
+          "position": 1,
+          "audio_url": "wbw/111_004_001.mp3",
+          "verse_key": "111:4",
+          "verse_id": 6220,
+          "location": "111:4:1",
+          "text_uthmani": "\u0648\u064e\u0671\u0645\u0652\u0631\u064e\u0623\u064e\u062a\u064f\u0647\u064f\u06e5",
+          "code_v1": "\ufb9a",
+          "qpc_uthmani_hafs": "\u0648\u064e\u0671\u0645\u06e1\u0631\u064e\u0623\u064e\u062a\u064f\u0647\u064f\u06e5",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 14,
+          "text": "\ufb9a",
+          "translation": {
+            "text": "And his wife",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "wa-im'ra-atuhu",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 4042,
+          "position": 2,
+          "audio_url": "wbw/111_004_002.mp3",
+          "verse_key": "111:4",
+          "verse_id": 6220,
+          "location": "111:4:2",
+          "text_uthmani": "\u062d\u064e\u0645\u0651\u064e\u0627\u0644\u064e\u0629\u064e",
+          "code_v1": "\ufb9b",
+          "qpc_uthmani_hafs": "\u062d\u064e\u0645\u0651\u064e\u0627\u0644\u064e\u0629\u064e",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "\ufb9b",
+          "translation": {
+            "text": "(the) carrier",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "\u1e25amm\u0101lata",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 4043,
+          "position": 3,
+          "audio_url": "wbw/111_004_003.mp3",
+          "verse_key": "111:4",
+          "verse_id": 6220,
+          "location": "111:4:3",
+          "text_uthmani": "\u0671\u0644\u0652\u062d\u064e\u0637\u064e\u0628\u0650",
+          "code_v1": "\ufb9c",
+          "qpc_uthmani_hafs": "\u0671\u0644\u06e1\u062d\u064e\u0637\u064e\u0628\u0650",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "\ufb9c",
+          "translation": {
+            "text": "(of) firewood",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "l-\u1e25a\u1e6dabi",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 4044,
+          "position": 4,
+          "audio_url": null,
+          "verse_key": "111:4",
+          "verse_id": 6220,
+          "location": "111:4:4",
+          "text_uthmani": "\u0664",
+          "code_v1": "\ufb9d",
+          "qpc_uthmani_hafs": "\u0664",
+          "char_type_name": "end",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "\ufb9d",
+          "translation": {
+            "text": "(4)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910177,
+          "resource_id": 131,
+          "text": "and \u02f9so will\u02fa his wife, the carrier of \u02f9thorny\u02fa kindling,<sup foot_note=77643>1</sup>",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 332826,
+          "resource_id": 57,
+          "text": "Wamraatuhu hammalata alhatab",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "111:5",
+      "text_uthmani": "\u0641\u0650\u0649 \u062c\u0650\u064a\u062f\u0650\u0647\u064e\u0627 \u062d\u064e\u0628\u0652\u0644\u064c \u0645\u0651\u0650\u0646 \u0645\u0651\u064e\u0633\u064e\u062f\u064d\u06ed",
+      "words": [
+        {
+          "id": 5280,
+          "position": 1,
+          "audio_url": "wbw/111_005_001.mp3",
+          "verse_key": "111:5",
+          "verse_id": 6221,
+          "location": "111:5:1",
+          "text_uthmani": "\u0641\u0650\u0649",
+          "code_v1": "\ufb9e",
+          "qpc_uthmani_hafs": "\u0641\u0650\u064a",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "\ufb9e",
+          "translation": {
+            "text": "In",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "f\u012b",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5281,
+          "position": 2,
+          "audio_url": "wbw/111_005_002.mp3",
+          "verse_key": "111:5",
+          "verse_id": 6221,
+          "location": "111:5:2",
+          "text_uthmani": "\u062c\u0650\u064a\u062f\u0650\u0647\u064e\u0627",
+          "code_v1": "\ufb9f",
+          "qpc_uthmani_hafs": "\u062c\u0650\u064a\u062f\u0650\u0647\u064e\u0627",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "\ufb9f",
+          "translation": {
+            "text": "her neck",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "j\u012bdih\u0101",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5282,
+          "position": 3,
+          "audio_url": "wbw/111_005_003.mp3",
+          "verse_key": "111:5",
+          "verse_id": 6221,
+          "location": "111:5:3",
+          "text_uthmani": "\u062d\u064e\u0628\u0652\u0644\u064c\u06ed",
+          "code_v1": "\ufba0",
+          "qpc_uthmani_hafs": "\u062d\u064e\u0628\u06e1\u0644\u065e",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "\ufba0",
+          "translation": {
+            "text": "(will be) a rope",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "\u1e25ablun",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5283,
+          "position": 4,
+          "audio_url": "wbw/111_005_004.mp3",
+          "verse_key": "111:5",
+          "verse_id": 6221,
+          "location": "111:5:4",
+          "text_uthmani": "\u0645\u0651\u0650\u0646",
+          "code_v1": "\ufba1",
+          "qpc_uthmani_hafs": "\u0645\u0651\u0650\u0646",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "\ufba1",
+          "translation": {
+            "text": "of",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "min",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5284,
+          "position": 5,
+          "audio_url": "wbw/111_005_005.mp3",
+          "verse_key": "111:5",
+          "verse_id": 6221,
+          "location": "111:5:5",
+          "text_uthmani": "\u0645\u0651\u064e\u0633\u064e\u062f\u064d\u06ed",
+          "code_v1": "\ufba2",
+          "qpc_uthmani_hafs": "\u0645\u0651\u064e\u0633\u064e\u062f\u0650\u06ed",
+          "char_type_name": "word",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "\ufba2",
+          "translation": {
+            "text": "palm-fiber",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "masadin",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5285,
+          "position": 6,
+          "audio_url": null,
+          "verse_key": "111:5",
+          "verse_id": 6221,
+          "location": "111:5:6",
+          "text_uthmani": "\u0665",
+          "code_v1": "\ufba3",
+          "qpc_uthmani_hafs": "\u0665",
+          "char_type_name": "end",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "\ufba3",
+          "translation": {
+            "text": "(5)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910178,
+          "resource_id": 131,
+          "text": "around her neck will be a rope of palm-fibre.<sup foot_note=77644>1</sup>",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 332824,
+          "resource_id": 57,
+          "text": "Fee jeediha hablun min masad",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    }
+  ]
+}

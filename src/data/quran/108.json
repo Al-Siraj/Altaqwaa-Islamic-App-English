@@ -1,0 +1,401 @@
+{
+  "revelationPlace": "makkah",
+  "transliteratedName": "Al-Kawthar",
+  "versesCount": 3,
+  "translatedName": "The Abundance",
+  "slug": "al-kawthar",
+  "id": "108",
+  "verses": [
+    {
+      "verse_key": "108:1",
+      "text_uthmani": " \u0625\u0650\u0646\u0651\u064e\u0627\u0653 \u0623\u064e\u0639\u0652\u0637\u064e\u064a\u0652\u0646\u064e\u0640\u0670\u0643\u064e \u0671\u0644\u0652\u0643\u064e\u0648\u0652\u062b\u064e\u0631\u064e",
+      "words": [
+        {
+          "id": 276,
+          "position": 1,
+          "audio_url": "wbw/108_001_001.mp3",
+          "verse_key": "108:1",
+          "verse_id": 6205,
+          "location": "108:1:1",
+          "text_uthmani": "\u0625\u0650\u0646\u064e\u0651\u0622",
+          "code_v1": "\ufb86",
+          "qpc_uthmani_hafs": "\u0625\u0650\u0646\u0651\u064e\u0627\u0653",
+          "char_type_name": "word",
+          "page_number": 602,
+          "line_number": 14,
+          "text": "\ufb86",
+          "translation": {
+            "text": "Indeed, We",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "inn\u0101",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 277,
+          "position": 2,
+          "audio_url": "wbw/108_001_002.mp3",
+          "verse_key": "108:1",
+          "verse_id": 6205,
+          "location": "108:1:2",
+          "text_uthmani": "\u0623\u064e\u0639\u0652\u0637\u064e\u064a\u0652\u0646\u064e\u0640\u0670\u0643\u064e",
+          "code_v1": "\ufb87",
+          "qpc_uthmani_hafs": "\u0623\u064e\u0639\u06e1\u0637\u064e\u064a\u06e1\u0646\u064e\u0670\u0643\u064e",
+          "char_type_name": "word",
+          "page_number": 602,
+          "line_number": 14,
+          "text": "\ufb87",
+          "translation": {
+            "text": "We have given you",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "a\u02bf\u1e6dayn\u0101ka",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 278,
+          "position": 3,
+          "audio_url": "wbw/108_001_003.mp3",
+          "verse_key": "108:1",
+          "verse_id": 6205,
+          "location": "108:1:3",
+          "text_uthmani": "\u0671\u0644\u0652\u0643\u064e\u0648\u0652\u062b\u064e\u0631\u064e",
+          "code_v1": "\ufb88",
+          "qpc_uthmani_hafs": "\u0671\u0644\u06e1\u0643\u064e\u0648\u06e1\u062b\u064e\u0631\u064e",
+          "char_type_name": "word",
+          "page_number": 602,
+          "line_number": 14,
+          "text": "\ufb88",
+          "translation": {
+            "text": "Al-Kauthar",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "l-kawthara",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 279,
+          "position": 4,
+          "audio_url": null,
+          "verse_key": "108:1",
+          "verse_id": 6205,
+          "location": "108:1:4",
+          "text_uthmani": "\u0661",
+          "code_v1": "\ufb89",
+          "qpc_uthmani_hafs": "\u0661",
+          "char_type_name": "end",
+          "page_number": 602,
+          "line_number": 14,
+          "text": "\ufb89",
+          "translation": {
+            "text": "(1)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910162,
+          "resource_id": 131,
+          "text": "Indeed, We have granted you \u02f9O Prophet\u02fa abundant goodness.<sup foot_note=77642>1</sup>",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 332888,
+          "resource_id": 57,
+          "text": "Inna aAAtaynakaalkawthar",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "108:2",
+      "text_uthmani": "\u0641\u064e\u0635\u064e\u0644\u0651\u0650 \u0644\u0650\u0631\u064e\u0628\u0651\u0650\u0643\u064e \u0648\u064e\u0671\u0646\u0652\u062d\u064e\u0631\u0652",
+      "words": [
+        {
+          "id": 996,
+          "position": 1,
+          "audio_url": "wbw/108_002_001.mp3",
+          "verse_key": "108:2",
+          "verse_id": 6206,
+          "location": "108:2:1",
+          "text_uthmani": "\u0641\u064e\u0635\u064e\u0644\u0651\u0650",
+          "code_v1": "\ufb8a",
+          "qpc_uthmani_hafs": "\u0641\u064e\u0635\u064e\u0644\u0651\u0650",
+          "char_type_name": "word",
+          "page_number": 602,
+          "line_number": 14,
+          "text": "\ufb8a",
+          "translation": {
+            "text": "So pray",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "fa\u1e63alli",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 997,
+          "position": 2,
+          "audio_url": "wbw/108_002_002.mp3",
+          "verse_key": "108:2",
+          "verse_id": 6206,
+          "location": "108:2:2",
+          "text_uthmani": "\u0644\u0650\u0631\u064e\u0628\u0651\u0650\u0643\u064e",
+          "code_v1": "\ufb8b",
+          "qpc_uthmani_hafs": "\u0644\u0650\u0631\u064e\u0628\u0651\u0650\u0643\u064e",
+          "char_type_name": "word",
+          "page_number": 602,
+          "line_number": 14,
+          "text": "\ufb8b",
+          "translation": {
+            "text": "to your Lord",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "lirabbika",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 998,
+          "position": 3,
+          "audio_url": "wbw/108_002_003.mp3",
+          "verse_key": "108:2",
+          "verse_id": 6206,
+          "location": "108:2:3",
+          "text_uthmani": "\u0648\u064e\u0671\u0646\u0652\u062d\u064e\u0631\u0652",
+          "code_v1": "\ufb8c",
+          "qpc_uthmani_hafs": "\u0648\u064e\u0671\u0646\u06e1\u062d\u064e\u0631\u06e1",
+          "char_type_name": "word",
+          "page_number": 602,
+          "line_number": 14,
+          "text": "\ufb8c",
+          "translation": {
+            "text": "and sacrifice",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "wa-in'\u1e25ar",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 999,
+          "position": 4,
+          "audio_url": null,
+          "verse_key": "108:2",
+          "verse_id": 6206,
+          "location": "108:2:4",
+          "text_uthmani": "\u0662",
+          "code_v1": "\ufb8d",
+          "qpc_uthmani_hafs": "\u0662",
+          "char_type_name": "end",
+          "page_number": 602,
+          "line_number": 14,
+          "text": "\ufb8d",
+          "translation": {
+            "text": "(2)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910163,
+          "resource_id": 131,
+          "text": "So pray and sacrifice to your Lord \u02f9alone\u02fa.",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 332886,
+          "resource_id": 57,
+          "text": "Fasalli lirabbika wanhar",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "108:3",
+      "text_uthmani": "\u0625\u0650\u0646\u0651\u064e \u0634\u064e\u0627\u0646\u0650\u0626\u064e\u0643\u064e \u0647\u064f\u0648\u064e \u0671\u0644\u0652\u0623\u064e\u0628\u0652\u062a\u064e\u0631\u064f",
+      "words": [
+        {
+          "id": 2556,
+          "position": 1,
+          "audio_url": "wbw/108_003_001.mp3",
+          "verse_key": "108:3",
+          "verse_id": 6207,
+          "location": "108:3:1",
+          "text_uthmani": "\u0625\u0650\u0646\u0651\u064e",
+          "code_v1": "\ufb8e",
+          "qpc_uthmani_hafs": "\u0625\u0650\u0646\u0651\u064e",
+          "char_type_name": "word",
+          "page_number": 602,
+          "line_number": 15,
+          "text": "\ufb8e",
+          "translation": {
+            "text": "Indeed",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "inna",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2557,
+          "position": 2,
+          "audio_url": "wbw/108_003_002.mp3",
+          "verse_key": "108:3",
+          "verse_id": 6207,
+          "location": "108:3:2",
+          "text_uthmani": "\u0634\u064e\u0627\u0646\u0650\u0626\u064e\u0643\u064e",
+          "code_v1": "\ufb8f",
+          "qpc_uthmani_hafs": "\u0634\u064e\u0627\u0646\u0650\u0626\u064e\u0643\u064e",
+          "char_type_name": "word",
+          "page_number": 602,
+          "line_number": 15,
+          "text": "\ufb8f",
+          "translation": {
+            "text": "your enemy ",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "sh\u0101ni-aka",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2558,
+          "position": 3,
+          "audio_url": "wbw/108_003_003.mp3",
+          "verse_key": "108:3",
+          "verse_id": 6207,
+          "location": "108:3:3",
+          "text_uthmani": "\u0647\u064f\u0648\u064e",
+          "code_v1": "\ufb90",
+          "qpc_uthmani_hafs": "\u0647\u064f\u0648\u064e",
+          "char_type_name": "word",
+          "page_number": 602,
+          "line_number": 15,
+          "text": "\ufb90",
+          "translation": {
+            "text": "he (is)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "huwa",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2559,
+          "position": 4,
+          "audio_url": "wbw/108_003_004.mp3",
+          "verse_key": "108:3",
+          "verse_id": 6207,
+          "location": "108:3:4",
+          "text_uthmani": "\u0671\u0644\u0652\u0623\u064e\u0628\u0652\u062a\u064e\u0631\u064f",
+          "code_v1": "\ufb91",
+          "qpc_uthmani_hafs": "\u0671\u0644\u06e1\u0623\u064e\u0628\u06e1\u062a\u064e\u0631\u064f",
+          "char_type_name": "word",
+          "page_number": 602,
+          "line_number": 15,
+          "text": "\ufb91",
+          "translation": {
+            "text": "the one cut off",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "l-abtaru",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2560,
+          "position": 5,
+          "audio_url": null,
+          "verse_key": "108:3",
+          "verse_id": 6207,
+          "location": "108:3:5",
+          "text_uthmani": "\u0663",
+          "code_v1": "\ufb92",
+          "qpc_uthmani_hafs": "\u0663",
+          "char_type_name": "end",
+          "page_number": 602,
+          "line_number": 15,
+          "text": "\ufb92",
+          "translation": {
+            "text": "(3)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910164,
+          "resource_id": 131,
+          "text": "Only the one who hates you is truly cut off \u02f9from any goodness\u02fa.",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 332884,
+          "resource_id": 57,
+          "text": "Inna shani-aka huwa al-abtar",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    }
+  ]
+}

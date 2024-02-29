@@ -1,0 +1,792 @@
+{
+  "revelationPlace": "makkah",
+  "transliteratedName": "An-Nas",
+  "versesCount": 6,
+  "translatedName": "Mankind",
+  "slug": "an-nas",
+  "id": "114",
+  "verses": [
+    {
+      "verse_key": "114:1",
+      "text_uthmani": " \u0642\u064f\u0644\u0652 \u0623\u064e\u0639\u064f\u0648\u0630\u064f \u0628\u0650\u0631\u064e\u0628\u0651\u0650 \u0671\u0644\u0646\u0651\u064e\u0627\u0633\u0650",
+      "words": [
+        {
+          "id": 115,
+          "position": 1,
+          "audio_url": "wbw/114_001_001.mp3",
+          "verse_key": "114:1",
+          "verse_id": 6231,
+          "location": "114:1:1",
+          "text_uthmani": "\u0642\u064f\u0644\u0652",
+          "code_v1": "\ufb80",
+          "qpc_uthmani_hafs": "\u0642\u064f\u0644\u06e1",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "\ufb80",
+          "translation": {
+            "text": "Say",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "qul",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 116,
+          "position": 2,
+          "audio_url": "wbw/114_001_002.mp3",
+          "verse_key": "114:1",
+          "verse_id": 6231,
+          "location": "114:1:2",
+          "text_uthmani": "\u0623\u064e\u0639\u064f\u0648\u0630\u064f",
+          "code_v1": "\ufb81",
+          "qpc_uthmani_hafs": "\u0623\u064e\u0639\u064f\u0648\u0630\u064f",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "\ufb81",
+          "translation": {
+            "text": "I seek refuge",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "a\u02bf\u016bdhu",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 117,
+          "position": 3,
+          "audio_url": "wbw/114_001_003.mp3",
+          "verse_key": "114:1",
+          "verse_id": 6231,
+          "location": "114:1:3",
+          "text_uthmani": "\u0628\u0650\u0631\u064e\u0628\u0651\u0650",
+          "code_v1": "\ufb82",
+          "qpc_uthmani_hafs": "\u0628\u0650\u0631\u064e\u0628\u0651\u0650",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "\ufb82",
+          "translation": {
+            "text": "in (the) Lord",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "birabbi",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 118,
+          "position": 4,
+          "audio_url": "wbw/114_001_004.mp3",
+          "verse_key": "114:1",
+          "verse_id": 6231,
+          "location": "114:1:4",
+          "text_uthmani": "\u0671\u0644\u0646\u0651\u064e\u0627\u0633\u0650",
+          "code_v1": "\ufb83",
+          "qpc_uthmani_hafs": "\u0671\u0644\u0646\u0651\u064e\u0627\u0633\u0650",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "\ufb83",
+          "translation": {
+            "text": "(of) mankind",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "l-n\u0101si",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 119,
+          "position": 5,
+          "audio_url": null,
+          "verse_key": "114:1",
+          "verse_id": 6231,
+          "location": "114:1:5",
+          "text_uthmani": "\u0661",
+          "code_v1": "\ufb84",
+          "qpc_uthmani_hafs": "\u0661",
+          "char_type_name": "end",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "\ufb84",
+          "translation": {
+            "text": "(1)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910188,
+          "resource_id": 131,
+          "text": "Say, \u02f9O Prophet,\u02fa \u201cI seek refuge in the Lord of humankind,",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 332787,
+          "resource_id": 57,
+          "text": "Qul aAAoothu birabbi annas",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "114:2",
+      "text_uthmani": "\u0645\u064e\u0644\u0650\u0643\u0650 \u0671\u0644\u0646\u0651\u064e\u0627\u0633\u0650",
+      "words": [
+        {
+          "id": 932,
+          "position": 1,
+          "audio_url": "wbw/114_002_001.mp3",
+          "verse_key": "114:2",
+          "verse_id": 6232,
+          "location": "114:2:1",
+          "text_uthmani": "\u0645\u064e\u0644\u0650\u0643\u0650",
+          "code_v1": "\ufb85",
+          "qpc_uthmani_hafs": "\u0645\u064e\u0644\u0650\u0643\u0650",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "\ufb85",
+          "translation": {
+            "text": "(The) King",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "maliki",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 933,
+          "position": 2,
+          "audio_url": "wbw/114_002_002.mp3",
+          "verse_key": "114:2",
+          "verse_id": 6232,
+          "location": "114:2:2",
+          "text_uthmani": "\u0671\u0644\u0646\u0651\u064e\u0627\u0633\u0650",
+          "code_v1": "\ufb86",
+          "qpc_uthmani_hafs": "\u0671\u0644\u0646\u0651\u064e\u0627\u0633\u0650",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "\ufb86",
+          "translation": {
+            "text": "(of) mankind",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "l-n\u0101si",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 934,
+          "position": 3,
+          "audio_url": null,
+          "verse_key": "114:2",
+          "verse_id": 6232,
+          "location": "114:2:3",
+          "text_uthmani": "\u0662",
+          "code_v1": "\ufb87",
+          "qpc_uthmani_hafs": "\u0662",
+          "char_type_name": "end",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "\ufb87",
+          "translation": {
+            "text": "(2)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910189,
+          "resource_id": 131,
+          "text": "the Master of humankind,",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 333103,
+          "resource_id": 57,
+          "text": "Maliki annas",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "114:3",
+      "text_uthmani": "\u0625\u0650\u0644\u064e\u0640\u0670\u0647\u0650 \u0671\u0644\u0646\u0651\u064e\u0627\u0633\u0650",
+      "words": [
+        {
+          "id": 2819,
+          "position": 1,
+          "audio_url": "wbw/114_003_001.mp3",
+          "verse_key": "114:3",
+          "verse_id": 6233,
+          "location": "114:3:1",
+          "text_uthmani": "\u0625\u0650\u0644\u064e\u0640\u0670\u0647\u0650",
+          "code_v1": "\ufb88",
+          "qpc_uthmani_hafs": "\u0625\u0650\u0644\u064e\u0670\u0647\u0650",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "\ufb88",
+          "translation": {
+            "text": "(The) God",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "il\u0101hi",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2820,
+          "position": 2,
+          "audio_url": "wbw/114_003_002.mp3",
+          "verse_key": "114:3",
+          "verse_id": 6233,
+          "location": "114:3:2",
+          "text_uthmani": "\u0671\u0644\u0646\u0651\u064e\u0627\u0633\u0650",
+          "code_v1": "\ufb89",
+          "qpc_uthmani_hafs": "\u0671\u0644\u0646\u0651\u064e\u0627\u0633\u0650",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 13,
+          "text": "\ufb89",
+          "translation": {
+            "text": "(of) mankind",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "l-n\u0101si",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 2821,
+          "position": 3,
+          "audio_url": null,
+          "verse_key": "114:3",
+          "verse_id": 6233,
+          "location": "114:3:3",
+          "text_uthmani": "\u0663",
+          "code_v1": "\ufb8a",
+          "qpc_uthmani_hafs": "\u0663",
+          "char_type_name": "end",
+          "page_number": 604,
+          "line_number": 13,
+          "text": "\ufb8a",
+          "translation": {
+            "text": "(3)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910190,
+          "resource_id": 131,
+          "text": "the God of humankind,",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 333104,
+          "resource_id": 57,
+          "text": "Ilahi annas",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "114:4",
+      "text_uthmani": "\u0645\u0650\u0646 \u0634\u064e\u0631\u0651\u0650 \u0671\u0644\u0652\u0648\u064e\u0633\u0652\u0648\u064e\u0627\u0633\u0650 \u0671\u0644\u0652\u062e\u064e\u0646\u0651\u064e\u0627\u0633\u0650",
+      "words": [
+        {
+          "id": 4131,
+          "position": 1,
+          "audio_url": "wbw/114_004_001.mp3",
+          "verse_key": "114:4",
+          "verse_id": 6234,
+          "location": "114:4:1",
+          "text_uthmani": "\u0645\u0650\u0646",
+          "code_v1": "\ufb8b",
+          "qpc_uthmani_hafs": "\u0645\u0650\u0646",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 13,
+          "text": "\ufb8b",
+          "translation": {
+            "text": "From",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "min",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 4132,
+          "position": 2,
+          "audio_url": "wbw/114_004_002.mp3",
+          "verse_key": "114:4",
+          "verse_id": 6234,
+          "location": "114:4:2",
+          "text_uthmani": "\u0634\u064e\u0631\u0651\u0650",
+          "code_v1": "\ufb8c",
+          "qpc_uthmani_hafs": "\u0634\u064e\u0631\u0651\u0650",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 13,
+          "text": "\ufb8c",
+          "translation": {
+            "text": "(the) evil",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "sharri",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 4133,
+          "position": 3,
+          "audio_url": "wbw/114_004_003.mp3",
+          "verse_key": "114:4",
+          "verse_id": 6234,
+          "location": "114:4:3",
+          "text_uthmani": "\u0671\u0644\u0652\u0648\u064e\u0633\u0652\u0648\u064e\u0627\u0633\u0650",
+          "code_v1": "\ufb8d",
+          "qpc_uthmani_hafs": "\u0671\u0644\u06e1\u0648\u064e\u0633\u06e1\u0648\u064e\u0627\u0633\u0650",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 13,
+          "text": "\ufb8d",
+          "translation": {
+            "text": "(of) the whisperer",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "l-wasw\u0101si",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 4134,
+          "position": 4,
+          "audio_url": "wbw/114_004_004.mp3",
+          "verse_key": "114:4",
+          "verse_id": 6234,
+          "location": "114:4:4",
+          "text_uthmani": "\u0671\u0644\u0652\u062e\u064e\u0646\u0651\u064e\u0627\u0633\u0650",
+          "code_v1": "\ufb8e",
+          "qpc_uthmani_hafs": "\u0671\u0644\u06e1\u062e\u064e\u0646\u0651\u064e\u0627\u0633\u0650",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 13,
+          "text": "\ufb8e",
+          "translation": {
+            "text": "the one who withdraws",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "l-khan\u0101si",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 4135,
+          "position": 5,
+          "audio_url": null,
+          "verse_key": "114:4",
+          "verse_id": 6234,
+          "location": "114:4:5",
+          "text_uthmani": "\u0664",
+          "code_v1": "\ufb8f",
+          "qpc_uthmani_hafs": "\u0664",
+          "char_type_name": "end",
+          "page_number": 604,
+          "line_number": 13,
+          "text": "\ufb8f",
+          "translation": {
+            "text": "(4)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910191,
+          "resource_id": 131,
+          "text": "from the evil of the lurking whisperer\u2014",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 332783,
+          "resource_id": 57,
+          "text": "Min sharri alwaswasi alkhannas",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "114:5",
+      "text_uthmani": "\u0671\u0644\u0651\u064e\u0630\u0650\u0649 \u064a\u064f\u0648\u064e\u0633\u0652\u0648\u0650\u0633\u064f \u0641\u0650\u0649 \u0635\u064f\u062f\u064f\u0648\u0631\u0650 \u0671\u0644\u0646\u0651\u064e\u0627\u0633\u0650",
+      "words": [
+        {
+          "id": 5496,
+          "position": 1,
+          "audio_url": "wbw/114_005_001.mp3",
+          "verse_key": "114:5",
+          "verse_id": 6235,
+          "location": "114:5:1",
+          "text_uthmani": "\u0671\u0644\u0651\u064e\u0630\u0650\u0649",
+          "code_v1": "\ufb90",
+          "qpc_uthmani_hafs": "\u0671\u0644\u0651\u064e\u0630\u0650\u064a",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 13,
+          "text": "\ufb90",
+          "translation": {
+            "text": "The one who",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "alladh\u012b",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5497,
+          "position": 2,
+          "audio_url": "wbw/114_005_002.mp3",
+          "verse_key": "114:5",
+          "verse_id": 6235,
+          "location": "114:5:2",
+          "text_uthmani": "\u064a\u064f\u0648\u064e\u0633\u0652\u0648\u0650\u0633\u064f",
+          "code_v1": "\ufb91",
+          "qpc_uthmani_hafs": "\u064a\u064f\u0648\u064e\u0633\u06e1\u0648\u0650\u0633\u064f",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 14,
+          "text": "\ufb91",
+          "translation": {
+            "text": "whispers",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "yuwaswisu",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5498,
+          "position": 3,
+          "audio_url": "wbw/114_005_003.mp3",
+          "verse_key": "114:5",
+          "verse_id": 6235,
+          "location": "114:5:3",
+          "text_uthmani": "\u0641\u0650\u0649",
+          "code_v1": "\ufb92",
+          "qpc_uthmani_hafs": "\u0641\u0650\u064a",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 14,
+          "text": "\ufb92",
+          "translation": {
+            "text": "in",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "f\u012b",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5499,
+          "position": 4,
+          "audio_url": "wbw/114_005_004.mp3",
+          "verse_key": "114:5",
+          "verse_id": 6235,
+          "location": "114:5:4",
+          "text_uthmani": "\u0635\u064f\u062f\u064f\u0648\u0631\u0650",
+          "code_v1": "\ufb93",
+          "qpc_uthmani_hafs": "\u0635\u064f\u062f\u064f\u0648\u0631\u0650",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 14,
+          "text": "\ufb93",
+          "translation": {
+            "text": "(the) breasts",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "\u1e63ud\u016bri",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5500,
+          "position": 5,
+          "audio_url": "wbw/114_005_005.mp3",
+          "verse_key": "114:5",
+          "verse_id": 6235,
+          "location": "114:5:5",
+          "text_uthmani": "\u0671\u0644\u0646\u0651\u064e\u0627\u0633\u0650",
+          "code_v1": "\ufb94",
+          "qpc_uthmani_hafs": "\u0671\u0644\u0646\u0651\u064e\u0627\u0633\u0650",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 14,
+          "text": "\ufb94",
+          "translation": {
+            "text": "(of) mankind",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "l-n\u0101si",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 5501,
+          "position": 6,
+          "audio_url": null,
+          "verse_key": "114:5",
+          "verse_id": 6235,
+          "location": "114:5:6",
+          "text_uthmani": "\u0665",
+          "code_v1": "\ufb95",
+          "qpc_uthmani_hafs": "\u0665",
+          "char_type_name": "end",
+          "page_number": 604,
+          "line_number": 14,
+          "text": "\ufb95",
+          "translation": {
+            "text": "(5)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910192,
+          "resource_id": 131,
+          "text": "who whispers into the hearts of humankind\u2014",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 332781,
+          "resource_id": 57,
+          "text": "Allathee yuwaswisu fee sudoori annas",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    },
+    {
+      "verse_key": "114:6",
+      "text_uthmani": "\u0645\u0650\u0646\u064e \u0671\u0644\u0652\u062c\u0650\u0646\u0651\u064e\u0629\u0650 \u0648\u064e\u0671\u0644\u0646\u0651\u064e\u0627\u0633\u0650",
+      "words": [
+        {
+          "id": 6729,
+          "position": 1,
+          "audio_url": "wbw/114_006_001.mp3",
+          "verse_key": "114:6",
+          "verse_id": 6236,
+          "location": "114:6:1",
+          "text_uthmani": "\u0645\u0650\u0646\u064e",
+          "code_v1": "\ufb96",
+          "qpc_uthmani_hafs": "\u0645\u0650\u0646\u064e",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 15,
+          "text": "\ufb96",
+          "translation": {
+            "text": "From",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "mina",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 6730,
+          "position": 2,
+          "audio_url": "wbw/114_006_002.mp3",
+          "verse_key": "114:6",
+          "verse_id": 6236,
+          "location": "114:6:2",
+          "text_uthmani": "\u0671\u0644\u0652\u062c\u0650\u0646\u0651\u064e\u0629\u0650",
+          "code_v1": "\ufb97",
+          "qpc_uthmani_hafs": "\u0671\u0644\u06e1\u062c\u0650\u0646\u0651\u064e\u0629\u0650",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 15,
+          "text": "\ufb97",
+          "translation": {
+            "text": "the jinn",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "l-jinati",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 6731,
+          "position": 3,
+          "audio_url": "wbw/114_006_003.mp3",
+          "verse_key": "114:6",
+          "verse_id": 6236,
+          "location": "114:6:3",
+          "text_uthmani": "\u0648\u064e\u0671\u0644\u0646\u0651\u064e\u0627\u0633\u0650",
+          "code_v1": "\ufb98",
+          "qpc_uthmani_hafs": "\u0648\u064e\u0671\u0644\u0646\u0651\u064e\u0627\u0633\u0650",
+          "char_type_name": "word",
+          "page_number": 604,
+          "line_number": 15,
+          "text": "\ufb98",
+          "translation": {
+            "text": "and men",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": "wal-n\u0101si",
+            "language_name": "english",
+            "language_id": 38
+          }
+        },
+        {
+          "id": 6732,
+          "position": 4,
+          "audio_url": null,
+          "verse_key": "114:6",
+          "verse_id": 6236,
+          "location": "114:6:4",
+          "text_uthmani": "\u0666",
+          "code_v1": "\ufb99",
+          "qpc_uthmani_hafs": "\u0666",
+          "char_type_name": "end",
+          "page_number": 604,
+          "line_number": 15,
+          "text": "\ufb99",
+          "translation": {
+            "text": "(6)",
+            "language_name": "english",
+            "language_id": 38
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english",
+            "language_id": 38
+          }
+        }
+      ],
+      "translations": [
+        {
+          "id": 910193,
+          "resource_id": 131,
+          "text": "from among jinn and humankind.\u201d",
+          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+          "language_id": 38
+        },
+        {
+          "id": 332779,
+          "resource_id": 57,
+          "text": "Mina aljinnati wannas",
+          "resource_name": "Transliteration",
+          "language_id": 38
+        }
+      ]
+    }
+  ]
+}
