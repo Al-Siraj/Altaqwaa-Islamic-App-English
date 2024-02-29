@@ -1,6 +1,4 @@
-> [!INFO]  
 > This project is an English verison of the original [Al-Taqwaa app](https://github.com/Alsarmad/Altaqwaa-Islamic-Desktop-Application).
-<br>
 
 ![preview|690x388](/screenshots/Featured_banner.png)
 
