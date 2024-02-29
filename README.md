@@ -228,7 +228,7 @@ yarn run packmac
 yarn run packlinux
 ```
 
-### بأستخدام `NPM`
+### using `NPM`
 
 <br>
 
