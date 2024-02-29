@@ -113,7 +113,7 @@ sudo snap install altaqwaa
   - _Snap_: `cd` into location of `.snap` file and run command: 
   `sudo apt snap install --devmode altaqwaa_{ver}_amd64.snap`
 
-  - `cd` into location of `.tar.gz` file and run:
+  - _Tar_: `cd` into location of `.tar.gz` file and run:
   ```bash
   tar -xzf altaqwaa-{ver}.tar.gz
   cd altaqwaa-{ver}
