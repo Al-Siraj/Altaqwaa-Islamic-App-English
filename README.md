@@ -1,10 +1,8 @@
+> [!INFO]  
+> This project is an English verison of the original [Al-Taqwaa app](https://github.com/Alsarmad/Altaqwaa-Islamic-Desktop-Application).
+<br>
+
 ![preview|690x388](/screenshots/Featured_banner.png)
-<br>
-
-**An open-source, Islamic application that runs on Windows, Mac, and Linux operating systems. A modern app that provides a Muslim with the means to preserve his/her faith.**
-
-
-<br>
 
 ---
 
@@ -94,9 +92,9 @@ sudo snap install altaqwaa
 
 </p> -->
 
-- **Windows**: [Download the setup .exe installation file](https://github.com/rn0x/Altaqwaa-Islamic-Desktop-Application/releases/latest)
-- **MacOS**: [Download the .dmg installation file](https://github.com/rn0x/Altaqwaa-Islamic-Desktop-Application/releases/latest)
-- **Linux**: [Download the .AppImage, .deb, .snap or Tar.gz Archive](https://github.com/rn0x/Altaqwaa-Islamic-Desktop-Application/releases/latest)
+- **Windows**: [Download the setup .exe installation file](https://github.com/Altaqwaa/Altaqwaa-Islamic-App-English/releases/latest)
+- **MacOS**: [Download the .dmg installation file](https://github.com/Altaqwaa/Altaqwaa-Islamic-App-English/releases/latest)
+- **Linux**: [Download the .AppImage, .deb, .snap or Tar.gz archive](https://github.com/Altaqwaa/Altaqwaa-Islamic-App-English/releases/latest)
 
 <br>
 
@@ -148,12 +146,12 @@ sudo snap install altaqwaa
    - The majority of development involves work in **`Node.js`** and underlying languages **`HTML/CSS/JS`**.
    - If you have sufficient experience within this framework, please contact a contributor.
 
-2. Report issues on GitHub page [here](https://github.com/rn0x/Altaqwaa-Islamic-Desktop-Application/issues)
+2. Report issues on GitHub page [here](https://github.com/Altaqwaa/Altaqwaa-Islamic-App-English/issues)
    - Please provide a clear and descriptive title of the issue.
    - Include devise specifications and operating system (and distribution/interface used for Linux users).
    - Detailed description of the issue and steps to reproduce.
 
-3. Support the project financially through **`Github Sponsors`** from [here](https://github.com/sponsors/rn0x)
+3. Support the originial project financially through **`Github Sponsors`** from [here](https://github.com/sponsors/rn0x)
 
 4. Suggest new features and improvements
 
@@ -305,7 +303,3 @@ npm run packlinux
 ### Glory is to You, O Allah, and praise; I bear witness that there is none worthy of worship but You. I seek Your forgiveness and turn to You in repentance.
 
 <br>
-<!-- # TO DO 
-- Custom audio macros
-  - Convert read block code (or ordered list on web) to series of audio files
-  - Use time of day and prayer times to find appropriate duaas -->
