@@ -1,5 +1,5 @@
 {
-  "name": "altaqwaa-eng",
+  "name": "altaqwaa",
   "version": "0.1.0",
   "homepage": "https://www.altaqwaa.org",
   "description": "Altaqwaa - Islamic Desktop Application",
@@ -96,7 +96,6 @@
         "deb",
         "rpm",
         "snap",
-        "flatpak",
         "tar.gz"
       ]
     },

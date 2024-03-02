@@ -47,8 +47,8 @@
 
 <br>
 
-| **Dark Mode**                         | **Light Mode**                         |
-| :------------------------------------ | -------------------------------------- |
+| **Dark Mode** | **Light Mode**
+| ------------------------------------ | -------------------------------------- |
 | ![altaqwaa](/screenshots/dark/1.png)  | ![altaqwaa](/screenshots/light/1.png)  |
 | ![altaqwaa](/screenshots/dark/2.png)  | ![altaqwaa](/screenshots/light/2.png)  |
 | ![altaqwaa](/screenshots/dark/3.png)  | ![altaqwaa](/screenshots/light/3.png)  |
@@ -90,7 +90,7 @@ sudo snap install altaqwaa
 
 </p> -->
 
-- **Windows**: [Download the setup .exe installation file](https://github.com/Altaqwaa/Altaqwaa-Islamic-App-English/releases/latest)
+- **Windows**: [Download the setup .exe or .msi installation file](https://github.com/Altaqwaa/Altaqwaa-Islamic-App-English/releases/latest)
 - **MacOS**: [Download the .dmg installation file](https://github.com/Altaqwaa/Altaqwaa-Islamic-App-English/releases/latest)
 - **Linux**: [Download the .AppImage, .deb, .snap or Tar.gz archive](https://github.com/Altaqwaa/Altaqwaa-Islamic-App-English/releases/latest)
 
@@ -101,7 +101,7 @@ sudo snap install altaqwaa
 
 # Installation
 
-- **Windows**: Run `Altaqwaa.Setup.{ver}.exe` and follow onscreen prompts. Once installed, the app should be accessible from the start menu.
+- **Windows**: Run `Altaqwaa.Setup.{ver}.exe` or `Altaqwaa.{ver}.msi` and follow onscreen prompts. Once installed, the app should be accessible from the start menu.
 
 - **MacOS**: Run `Altaqwaa-{ver}.dmg` and drag icon into Applications folder.
 
@@ -111,9 +111,9 @@ sudo snap install altaqwaa
   `sudo dpkg -i altaqwaa_{ver}_amd64.deb`
 
   - _Snap_: `cd` into location of `.snap` file and run command: 
-  `sudo apt snap install --devmode altaqwaa_{ver}_amd64.snap`
+  `sudo snap install --devmode altaqwaa_{ver}_amd64.snap`
 
-  - `cd` into location of `.tar.gz` file and run:
+  - _Tar_: `cd` into location of `.tar.gz` file and run:
   ```bash
   tar -xzf altaqwaa-{ver}.tar.gz
   cd altaqwaa-{ver}
@@ -228,7 +228,7 @@ yarn run packmac
 yarn run packlinux
 ```
 
-### بأستخدام `NPM`
+### using `NPM`
 
 <br>
 
