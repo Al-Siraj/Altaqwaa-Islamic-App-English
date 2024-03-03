@@ -90,9 +90,9 @@ sudo snap install altaqwaa
 
 </p> -->
 
-- **Windows**: [Download the setup .exe or .msi installation file](https://github.com/Altaqwaa/Altaqwaa-Islamic-App-English/releases/latest)
-- **MacOS**: [Download the .dmg installation file](https://github.com/Altaqwaa/Altaqwaa-Islamic-App-English/releases/latest)
-- **Linux**: [Download the .AppImage, .deb, .snap or Tar.gz archive](https://github.com/Altaqwaa/Altaqwaa-Islamic-App-English/releases/latest)
+- **Windows**: [Download the setup .exe or .msi installation file](https://github.com/Al-Siraj/Altaqwaa-Islamic-App-English/releases/latest)
+- **MacOS**: [Download the .dmg installation file](https://github.com/Al-Siraj/Altaqwaa-Islamic-App-English/releases/latest)
+- **Linux**: [Download the .AppImage, .deb, .snap or Tar.gz archive](https://github.com/Al-Siraj/Altaqwaa-Islamic-App-English/releases/latest)
 
 <br>
 
@@ -144,7 +144,7 @@ sudo snap install altaqwaa
    - The majority of development involves work in **`Node.js`** and underlying languages **`HTML/CSS/JS`**.
    - If you have sufficient experience within this framework, please contact a contributor.
 
-2. Report issues on GitHub page [here](https://github.com/Altaqwaa/Altaqwaa-Islamic-App-English/issues)
+2. Report issues on GitHub page [here](https://github.com/Al-Siraj/Altaqwaa-Islamic-App-English/issues)
    - Please provide a clear and descriptive title of the issue.
    - Include devise specifications and operating system (and distribution/interface used for Linux users).
    - Detailed description of the issue and steps to reproduce.
