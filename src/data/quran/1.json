@@ -33,7 +33,8 @@
                         "text": "bis'mi",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u0628\u0650\u0633\u0652\u0645\u0650"
                 },
                 {
                     "id": 2,
@@ -58,7 +59,8 @@
                         "text": "l-lahi",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "[h:1[\u0671]\u0644\u0644\u0651\u064e\u0647\u0650"
                 },
                 {
                     "id": 3,
@@ -83,7 +85,8 @@
                         "text": "l-ra\u1e25m\u0101ni",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "[h:2[\u0671][l[\u0644]\u0631\u0651\u064e\u062d\u0652\u0645\u064e[n[\u0640\u0670]\u0646\u0650"
                 },
                 {
                     "id": 4,
@@ -108,7 +111,8 @@
                         "text": "l-ra\u1e25\u012bmi",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "[h:3[\u0671][l[\u0644]\u0631\u0651\u064e\u062d[p[\u0650\u064a]\u0645\u0650"
                 },
                 {
                     "id": 5,
@@ -180,7 +184,8 @@
                         "text": "al-\u1e25amdu",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u0671\u0644\u0652\u062d\u064e\u0645\u0652\u062f\u064f"
                 },
                 {
                     "id": 1131,
@@ -205,7 +210,8 @@
                         "text": "lillahi",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u0644\u0650\u0644\u0651\u064e\u0647\u0650"
                 },
                 {
                     "id": 1132,
@@ -230,7 +236,8 @@
                         "text": "rabbi",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u0631\u064e\u0628\u0651\u0650"
                 },
                 {
                     "id": 1133,
@@ -255,7 +262,8 @@
                         "text": "l-\u02bf\u0101lam\u012bna",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "[h:4[\u0671]\u0644\u0652\u0639\u064e[n[\u0640\u0670]\u0644\u064e\u0645[p[\u0650\u064a]\u0646\u064e"
                 },
                 {
                     "id": 1134,
@@ -327,7 +335,8 @@
                         "text": "al-ra\u1e25m\u0101ni",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u0671[l[\u0644]\u0631\u0651\u064e\u062d\u0652\u0645\u064e[n[\u0640\u0670]\u0646\u0650"
                 },
                 {
                     "id": 2954,
@@ -352,7 +361,8 @@
                         "text": "l-ra\u1e25\u012bmi",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "[h:3[\u0671][l[\u0644]\u0631\u0651\u064e\u062d[p[\u0650\u064a]\u0645\u0650"
                 },
                 {
                     "id": 2955,
@@ -424,7 +434,8 @@
                         "text": "m\u0101liki",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u0645\u064e[n[\u0640\u0670]\u0644\u0650\u0643\u0650"
                 },
                 {
                     "id": 3253,
@@ -449,7 +460,8 @@
                         "text": "yawmi",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u064a\u064e\u0648\u0652\u0645\u0650"
                 },
                 {
                     "id": 3254,
@@ -474,7 +486,8 @@
                         "text": "l-d\u012bni",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "[h:5[\u0671][l[\u0644]\u062f\u0651[p[\u0650\u064a]\u0646\u0650"
                 },
                 {
                     "id": 3255,
@@ -546,7 +559,8 @@
                         "text": "iyy\u0101ka",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u0625\u0650\u064a\u0651\u064e\u0627\u0643\u064e"
                 },
                 {
                     "id": 5335,
@@ -571,7 +585,8 @@
                         "text": "na\u02bfbudu",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u0646\u064e\u0639\u0652\u0628\u064f\u062f\u064f"
                 },
                 {
                     "id": 5336,
@@ -596,7 +611,8 @@
                         "text": "wa-iyy\u0101ka",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u0648\u064e\u0625\u0650\u064a\u0651\u064e\u0627\u0643\u064e"
                 },
                 {
                     "id": 5337,
@@ -621,7 +637,8 @@
                         "text": "nasta\u02bf\u012bnu",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u0646\u064e\u0633\u0652\u062a\u064e\u0639[p[\u0650\u064a]\u0646\u064f"
                 },
                 {
                     "id": 5338,
@@ -693,7 +710,8 @@
                         "text": "ih'din\u0101",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u0671\u0647\u0652\u062f\u0650\u0646\u064e\u0627"
                 },
                 {
                     "id": 6845,
@@ -718,7 +736,8 @@
                         "text": "l-\u1e63ir\u0101\u1e6da",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "[h:6[\u0671][l[\u0644]\u0635\u0651\u0650\u0631[n[\u064e\u0672]\u0637\u064e"
                 },
                 {
                     "id": 6846,
@@ -743,7 +762,8 @@
                         "text": "l-mus'taq\u012bma",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "[h:7[\u0671]\u0644\u0652\u0645\u064f\u0633\u0652\u062a\u064e\u0642[p[\u0650\u064a]\u0645\u064e"
                 },
                 {
                     "id": 6847,
@@ -815,7 +835,8 @@
                         "text": "\u1e63ir\u0101\u1e6da",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u0635\u0650\u0631[n[\u064e\u0672]\u0637\u064e"
                 },
                 {
                     "id": 8412,
@@ -840,7 +861,8 @@
                         "text": "alladh\u012bna",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "[h:8[\u0671]\u0644\u0651\u064e\u0630\u0650\u064a\u0646\u064e"
                 },
                 {
                     "id": 8413,
@@ -865,7 +887,8 @@
                         "text": "an\u02bfamta",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u0623\u064e\u0646\u0652\u0639\u064e\u0645\u0652\u062a\u064e"
                 },
                 {
                     "id": 8414,
@@ -890,7 +913,8 @@
                         "text": "\u02bfalayhim",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u0639\u064e\u0644\u064e\u064a\u0652\u0647\u0650\u0645\u0652"
                 },
                 {
                     "id": 8415,
@@ -915,7 +939,8 @@
                         "text": "ghayri",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u063a\u064e\u064a\u0652\u0631\u0650"
                 },
                 {
                     "id": 8416,
@@ -940,7 +965,8 @@
                         "text": "l-magh\u1e0d\u016bbi",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "[h:9[\u0671]\u0644\u0652\u0645\u064e\u063a\u0652\u0636\u064f\u0648\u0628\u0650"
                 },
                 {
                     "id": 8417,
@@ -965,7 +991,8 @@
                         "text": "\u02bfalayhim",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u0639\u064e\u0644\u064e\u064a\u0652\u0647\u0650\u0645\u0652"
                 },
                 {
                     "id": 8418,
@@ -990,7 +1017,8 @@
                         "text": "wal\u0101",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "\u0648\u064e\u0644\u064e\u0627"
                 },
                 {
                     "id": 8419,
@@ -1015,7 +1043,8 @@
                         "text": "l-\u1e0d\u0101l\u012bna",
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "tajweed": "[h:10[\u0671][l[\u0644]\u0636\u0651[m[\u064e\u0627]\u0653\u0644\u0651[p[\u0650\u064a]\u0646\u064e"
                 },
                 {
                     "id": 8420,

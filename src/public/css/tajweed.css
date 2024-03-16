@@ -1,0 +1,74 @@
+tajweed.ghn {
+    /* color: #FF7E1E; */
+    color: #3caa6a;
+}
+
+tajweed.qlq {
+    /* color: #DD0008; */
+    color: #5a8eff;
+}
+
+tajweed.idgh_ghn {
+    /* color: #169200; */
+    color: #a9f5ab;
+}
+
+tajweed.idgh_w_ghn {
+    /* color: #169200; */
+    color: #a9f5ab;
+}
+
+tajweed.iqlb {
+    /* color: #26BFFD; */
+    color: #3caa6a;
+}
+
+tajweed.ikhf {
+    /* color: #9400A8; */
+    color: #3caa6a;
+}
+
+tajweed.ikhf_shfw {
+    color: #D500B7;
+}
+
+tajweed.idghm_shfw {
+    /* color: #58B800; */
+    color: #3caa6a;
+}
+
+tajweed.slnt {
+    color: #AAAAAA;
+}
+
+tajweed.ham_wasl {
+    color: #AAAAAA;
+}
+
+tajweed.madda_necessary {
+    /* color: #000EBC; */
+    color: #d938a7;
+}
+
+tajweed.madda_obligatory {
+    /* color: #2144C1; */
+    color: #dd3d53;
+}
+
+tajweed.madda_permissible {
+    /* color: #4050FF; */
+    color: #f18a51;
+}
+
+tajweed.madda_normal {
+    /* color: #537FFF; */
+    color: #d7b024;
+}
+
+.idgh_mus {
+    color: #A1A1A1;
+}
+
+tajweed {
+    letter-spacing: 2px;
+}

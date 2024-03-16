@@ -63,9 +63,8 @@ module.exports = async (path, fs, App_Path) => {
             "quranTransliteration": false,
             "enableAutoScroll": true,
             "adhkarTranslation": true,
-            "adhkarTransliteration": false
+            "adhkarTransliteration": false,
+            "tajweed": false
         }, { spaces: '\t' });
     }
-
-
 }

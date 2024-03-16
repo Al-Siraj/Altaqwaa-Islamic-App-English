@@ -1,501 +1,515 @@
 {
-  "revelationPlace": "makkah",
-  "transliteratedName": "Al-'Asr",
-  "versesCount": 3,
-  "translatedName": "The Declining Day",
-  "slug": "al-asr",
-  "id": "103",
-  "verses": [
-    {
-      "verse_key": "103:1",
-      "text_uthmani": " \u0648\u064e\u0671\u0644\u0652\u0639\u064e\u0635\u0652\u0631\u0650",
-      "words": [
+    "revelationPlace": "makkah",
+    "transliteratedName": "Al-'Asr",
+    "versesCount": 3,
+    "translatedName": "The Declining Day",
+    "slug": "al-asr",
+    "id": "103",
+    "verses": [
         {
-          "id": 177,
-          "position": 1,
-          "audio_url": "wbw/103_001_001.mp3",
-          "verse_key": "103:1",
-          "verse_id": 6177,
-          "location": "103:1:1",
-          "text_uthmani": "\u0648\u064e\u0671\u0644\u0652\u0639\u064e\u0635\u0652\u0631\u0650",
-          "code_v1": "\ufb51",
-          "qpc_uthmani_hafs": "\u0648\u064e\u0671\u0644\u06e1\u0639\u064e\u0635\u06e1\u0631\u0650",
-          "char_type_name": "word",
-          "page_number": 601,
-          "line_number": 3,
-          "text": "\ufb51",
-          "translation": {
-            "text": "By the time",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": "wal-\u02bfa\u1e63ri",
-            "language_name": "english",
-            "language_id": 38
-          }
+            "verse_key": "103:1",
+            "text_uthmani": " \u0648\u064e\u0671\u0644\u0652\u0639\u064e\u0635\u0652\u0631\u0650",
+            "words": [
+                {
+                    "id": 177,
+                    "position": 1,
+                    "audio_url": "wbw/103_001_001.mp3",
+                    "verse_key": "103:1",
+                    "verse_id": 6177,
+                    "location": "103:1:1",
+                    "text_uthmani": "\u0648\u064e\u0671\u0644\u0652\u0639\u064e\u0635\u0652\u0631\u0650",
+                    "code_v1": "\ufb51",
+                    "qpc_uthmani_hafs": "\u0648\u064e\u0671\u0644\u06e1\u0639\u064e\u0635\u06e1\u0631\u0650",
+                    "char_type_name": "word",
+                    "page_number": 601,
+                    "line_number": 3,
+                    "text": "\ufb51",
+                    "translation": {
+                        "text": "By the time",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": "wal-\u02bfa\u1e63ri",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "tajweed": "\u0648\u064e[h:9999[\u0671]\u0644\u0652\u0639\u064e\u0635\u0652\u0631\u0650"
+                },
+                {
+                    "id": 178,
+                    "position": 2,
+                    "audio_url": null,
+                    "verse_key": "103:1",
+                    "verse_id": 6177,
+                    "location": "103:1:2",
+                    "text_uthmani": "\u0661",
+                    "code_v1": "\ufb52",
+                    "qpc_uthmani_hafs": "\u0661",
+                    "char_type_name": "end",
+                    "page_number": 601,
+                    "line_number": 3,
+                    "text": "\ufb52",
+                    "translation": {
+                        "text": "(1)",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": null,
+                        "language_name": "english",
+                        "language_id": 38
+                    }
+                }
+            ],
+            "translations": [
+                {
+                    "id": 910134,
+                    "resource_id": 131,
+                    "text": "By the \u02f9passage of\u02fa time!",
+                    "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+                    "language_id": 38
+                },
+                {
+                    "id": 332967,
+                    "resource_id": 57,
+                    "text": "WalAAasr",
+                    "resource_name": "Transliteration",
+                    "language_id": 38
+                }
+            ]
         },
         {
-          "id": 178,
-          "position": 2,
-          "audio_url": null,
-          "verse_key": "103:1",
-          "verse_id": 6177,
-          "location": "103:1:2",
-          "text_uthmani": "\u0661",
-          "code_v1": "\ufb52",
-          "qpc_uthmani_hafs": "\u0661",
-          "char_type_name": "end",
-          "page_number": 601,
-          "line_number": 3,
-          "text": "\ufb52",
-          "translation": {
-            "text": "(1)",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": null,
-            "language_name": "english",
-            "language_id": 38
-          }
+            "verse_key": "103:2",
+            "text_uthmani": "\u0625\u0650\u0646\u0651\u064e \u0671\u0644\u0652\u0625\u0650\u0646\u0633\u064e\u0640\u0670\u0646\u064e \u0644\u064e\u0641\u0650\u0649 \u062e\u064f\u0633\u0652\u0631\u064d",
+            "words": [
+                {
+                    "id": 1056,
+                    "position": 1,
+                    "audio_url": "wbw/103_002_001.mp3",
+                    "verse_key": "103:2",
+                    "verse_id": 6178,
+                    "location": "103:2:1",
+                    "text_uthmani": "\u0625\u0650\u0646\u0651\u064e",
+                    "code_v1": "\ufb53",
+                    "qpc_uthmani_hafs": "\u0625\u0650\u0646\u0651\u064e",
+                    "char_type_name": "word",
+                    "page_number": 601,
+                    "line_number": 3,
+                    "text": "\ufb53",
+                    "translation": {
+                        "text": "Indeed",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": "inna",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "tajweed": "\u0625\u0650[g[\u0646\u0651]\u064e"
+                },
+                {
+                    "id": 1057,
+                    "position": 2,
+                    "audio_url": "wbw/103_002_002.mp3",
+                    "verse_key": "103:2",
+                    "verse_id": 6178,
+                    "location": "103:2:2",
+                    "text_uthmani": "\u0671\u0644\u0652\u0625\u0650\u0646\u0633\u064e\u0640\u0670\u0646\u064e",
+                    "code_v1": "\ufb54",
+                    "qpc_uthmani_hafs": "\u0671\u0644\u06e1\u0625\u0650\u0646\u0633\u064e\u0670\u0646\u064e",
+                    "char_type_name": "word",
+                    "page_number": 601,
+                    "line_number": 3,
+                    "text": "\ufb54",
+                    "translation": {
+                        "text": "mankind",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": "l-ins\u0101na",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "tajweed": "[h:7137[\u0671]\u0644\u0652\u0625\u0650[f:5969[\u0646\u0633]\u064e[n[\u0640\u0670]\u0646\u064e"
+                },
+                {
+                    "id": 1058,
+                    "position": 3,
+                    "audio_url": "wbw/103_002_003.mp3",
+                    "verse_key": "103:2",
+                    "verse_id": 6178,
+                    "location": "103:2:3",
+                    "text_uthmani": "\u0644\u064e\u0641\u0650\u0649",
+                    "code_v1": "\ufb55",
+                    "qpc_uthmani_hafs": "\u0644\u064e\u0641\u0650\u064a",
+                    "char_type_name": "word",
+                    "page_number": 601,
+                    "line_number": 3,
+                    "text": "\ufb55",
+                    "translation": {
+                        "text": "(is) surely, in",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": "laf\u012b",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "tajweed": "\u0644\u064e\u0641\u0650\u0649"
+                },
+                {
+                    "id": 1059,
+                    "position": 4,
+                    "audio_url": "wbw/103_002_004.mp3",
+                    "verse_key": "103:2",
+                    "verse_id": 6178,
+                    "location": "103:2:4",
+                    "text_uthmani": "\u062e\u064f\u0633\u0652\u0631\u064d",
+                    "code_v1": "\ufb56",
+                    "qpc_uthmani_hafs": "\u062e\u064f\u0633\u06e1\u0631\u064d",
+                    "char_type_name": "word",
+                    "page_number": 601,
+                    "line_number": 3,
+                    "text": "\ufb56",
+                    "translation": {
+                        "text": "loss",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": "khus'rin",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "tajweed": "\u062e\u064f\u0633\u0652\u0631\u064d"
+                },
+                {
+                    "id": 1060,
+                    "position": 5,
+                    "audio_url": null,
+                    "verse_key": "103:2",
+                    "verse_id": 6178,
+                    "location": "103:2:5",
+                    "text_uthmani": "\u0662",
+                    "code_v1": "\ufb57",
+                    "qpc_uthmani_hafs": "\u0662",
+                    "char_type_name": "end",
+                    "page_number": 601,
+                    "line_number": 3,
+                    "text": "\ufb57",
+                    "translation": {
+                        "text": "(2)",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": null,
+                        "language_name": "english",
+                        "language_id": 38
+                    }
+                }
+            ],
+            "translations": [
+                {
+                    "id": 910135,
+                    "resource_id": 131,
+                    "text": "Surely humanity is in \u02f9grave\u02fa loss,",
+                    "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+                    "language_id": 38
+                },
+                {
+                    "id": 332965,
+                    "resource_id": 57,
+                    "text": "Inna al-insana lafee khusr",
+                    "resource_name": "Transliteration",
+                    "language_id": 38
+                }
+            ]
+        },
+        {
+            "verse_key": "103:3",
+            "text_uthmani": "\u0625\u0650\u0644\u0651\u064e\u0627 \u0671\u0644\u0651\u064e\u0630\u0650\u064a\u0646\u064e \u0621\u064e\u0627\u0645\u064e\u0646\u064f\u0648\u0627\u06df \u0648\u064e\u0639\u064e\u0645\u0650\u0644\u064f\u0648\u0627\u06df \u0671\u0644\u0635\u0651\u064e\u0640\u0670\u0644\u0650\u062d\u064e\u0640\u0670\u062a\u0650 \u0648\u064e\u062a\u064e\u0648\u064e\u0627\u0635\u064e\u0648\u0652\u0627\u06df \u0628\u0650\u0671\u0644\u0652\u062d\u064e\u0642\u0651\u0650 \u0648\u064e\u062a\u064e\u0648\u064e\u0627\u0635\u064e\u0648\u0652\u0627\u06df \u0628\u0650\u0671\u0644\u0635\u0651\u064e\u0628\u0652\u0631\u0650",
+            "words": [
+                {
+                    "id": 2213,
+                    "position": 1,
+                    "audio_url": "wbw/103_003_001.mp3",
+                    "verse_key": "103:3",
+                    "verse_id": 6179,
+                    "location": "103:3:1",
+                    "text_uthmani": "\u0625\u0650\u0644\u0651\u064e\u0627",
+                    "code_v1": "\ufb58",
+                    "qpc_uthmani_hafs": "\u0625\u0650\u0644\u0651\u064e\u0627",
+                    "char_type_name": "word",
+                    "page_number": 601,
+                    "line_number": 3,
+                    "text": "\ufb58",
+                    "translation": {
+                        "text": "Except",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": "ill\u0101",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "tajweed": "\u0625\u0650\u0644\u0651\u064e\u0627"
+                },
+                {
+                    "id": 2214,
+                    "position": 2,
+                    "audio_url": "wbw/103_003_002.mp3",
+                    "verse_key": "103:3",
+                    "verse_id": 6179,
+                    "location": "103:3:2",
+                    "text_uthmani": "\u0671\u0644\u0651\u064e\u0630\u0650\u064a\u0646\u064e",
+                    "code_v1": "\ufb59",
+                    "qpc_uthmani_hafs": "\u0671\u0644\u0651\u064e\u0630\u0650\u064a\u0646\u064e",
+                    "char_type_name": "word",
+                    "page_number": 601,
+                    "line_number": 3,
+                    "text": "\ufb59",
+                    "translation": {
+                        "text": "those who",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": "alladh\u012bna",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "tajweed": "[h:778[\u0671]\u0644\u0651\u064e\u0630\u0650\u064a\u0646\u064e"
+                },
+                {
+                    "id": 2215,
+                    "position": 3,
+                    "audio_url": "wbw/103_003_003.mp3",
+                    "verse_key": "103:3",
+                    "verse_id": 6179,
+                    "location": "103:3:3",
+                    "text_uthmani": "\u0621\u064e\u0627\u0645\u064e\u0646\u064f\u0648\u0627\u06df",
+                    "code_v1": "\ufb5a",
+                    "qpc_uthmani_hafs": "\u0621\u064e\u0627\u0645\u064e\u0646\u064f\u0648\u0627\u0652",
+                    "char_type_name": "word",
+                    "page_number": 601,
+                    "line_number": 3,
+                    "text": "\ufb5a",
+                    "translation": {
+                        "text": "believe",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": "\u0101man\u016b",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "tajweed": "\u0621\u064e\u0627\u0645\u064e\u0646\u064f\u0648[s[\u0627\u0652]"
+                },
+                {
+                    "id": 2216,
+                    "position": 4,
+                    "audio_url": "wbw/103_003_004.mp3",
+                    "verse_key": "103:3",
+                    "verse_id": 6179,
+                    "location": "103:3:4",
+                    "text_uthmani": "\u0648\u064e\u0639\u064e\u0645\u0650\u0644\u064f\u0648\u0627\u06df",
+                    "code_v1": "\ufb5b",
+                    "qpc_uthmani_hafs": "\u0648\u064e\u0639\u064e\u0645\u0650\u0644\u064f\u0648\u0627\u0652",
+                    "char_type_name": "word",
+                    "page_number": 601,
+                    "line_number": 4,
+                    "text": "\ufb5b",
+                    "translation": {
+                        "text": "and do",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": "wa\u02bfamil\u016b",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "tajweed": "\u0648\u064e\u0639\u064e\u0645\u0650\u0644\u064f\u0648[s[\u0627\u0652]"
+                },
+                {
+                    "id": 2217,
+                    "position": 5,
+                    "audio_url": "wbw/103_003_005.mp3",
+                    "verse_key": "103:3",
+                    "verse_id": 6179,
+                    "location": "103:3:5",
+                    "text_uthmani": "\u0671\u0644\u0635\u0651\u064e\u0640\u0670\u0644\u0650\u062d\u064e\u0640\u0670\u062a\u0650",
+                    "code_v1": "\ufb5c",
+                    "qpc_uthmani_hafs": "\u0671\u0644\u0635\u0651\u064e\u0670\u0644\u0650\u062d\u064e\u0670\u062a\u0650",
+                    "char_type_name": "word",
+                    "page_number": 601,
+                    "line_number": 4,
+                    "text": "\ufb5c",
+                    "translation": {
+                        "text": "righteous deeds",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": "l-\u1e63\u0101li\u1e25\u0101ti",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "tajweed": "[h:118[\u0671][l[\u0644]\u0635\u0651\u064e[n[\u0640\u0670]\u0644\u0650\u062d\u064e[n[\u0640\u0670]\u062a\u0650"
+                },
+                {
+                    "id": 2218,
+                    "position": 6,
+                    "audio_url": "wbw/103_003_006.mp3",
+                    "verse_key": "103:3",
+                    "verse_id": 6179,
+                    "location": "103:3:6",
+                    "text_uthmani": "\u0648\u064e\u062a\u064e\u0648\u064e\u0627\u0635\u064e\u0648\u0652\u0627\u06df",
+                    "code_v1": "\ufb5d",
+                    "qpc_uthmani_hafs": "\u0648\u064e\u062a\u064e\u0648\u064e\u0627\u0635\u064e\u0648\u06e1\u0627\u0652",
+                    "char_type_name": "word",
+                    "page_number": 601,
+                    "line_number": 4,
+                    "text": "\ufb5d",
+                    "translation": {
+                        "text": "and enjoin (each other)",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": "wataw\u0101\u1e63aw",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "tajweed": "\u0648\u064e\u062a\u064e\u0648\u064e\u0627\u0635\u064e\u0648\u0652[s[\u0627\u0652]"
+                },
+                {
+                    "id": 2219,
+                    "position": 7,
+                    "audio_url": "wbw/103_003_007.mp3",
+                    "verse_key": "103:3",
+                    "verse_id": 6179,
+                    "location": "103:3:7",
+                    "text_uthmani": "\u0628\u0650\u0671\u0644\u0652\u062d\u064e\u0642\u0651\u0650",
+                    "code_v1": "\ufb5e",
+                    "qpc_uthmani_hafs": "\u0628\u0650\u0671\u0644\u06e1\u062d\u064e\u0642\u0651\u0650",
+                    "char_type_name": "word",
+                    "page_number": 601,
+                    "line_number": 4,
+                    "text": "\ufb5e",
+                    "translation": {
+                        "text": "to the truth",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": "bil-\u1e25aqi",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "tajweed": "\u0628\u0650[h:370[\u0671]\u0644\u0652\u062d\u064e\u0642\u0651\u0650"
+                },
+                {
+                    "id": 2220,
+                    "position": 8,
+                    "audio_url": "wbw/103_003_008.mp3",
+                    "verse_key": "103:3",
+                    "verse_id": 6179,
+                    "location": "103:3:8",
+                    "text_uthmani": "\u0648\u064e\u062a\u064e\u0648\u064e\u0627\u0635\u064e\u0648\u0652\u0627\u06df",
+                    "code_v1": "\ufb5f",
+                    "qpc_uthmani_hafs": "\u0648\u064e\u062a\u064e\u0648\u064e\u0627\u0635\u064e\u0648\u06e1\u0627\u0652",
+                    "char_type_name": "word",
+                    "page_number": 601,
+                    "line_number": 4,
+                    "text": "\ufb5f",
+                    "translation": {
+                        "text": "and enjoin (each other)",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": "wataw\u0101\u1e63aw",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "tajweed": "\u0648\u064e\u062a\u064e\u0648\u064e\u0627\u0635\u064e\u0648\u0652[s[\u0627\u0652]"
+                },
+                {
+                    "id": 2221,
+                    "position": 9,
+                    "audio_url": "wbw/103_003_009.mp3",
+                    "verse_key": "103:3",
+                    "verse_id": 6179,
+                    "location": "103:3:9",
+                    "text_uthmani": "\u0628\u0650\u0671\u0644\u0635\u0651\u064e\u0628\u0652\u0631\u0650",
+                    "code_v1": "\ufb60",
+                    "qpc_uthmani_hafs": "\u0628\u0650\u0671\u0644\u0635\u0651\u064e\u0628\u06e1\u0631\u0650",
+                    "char_type_name": "word",
+                    "page_number": 601,
+                    "line_number": 4,
+                    "text": "\ufb60",
+                    "translation": {
+                        "text": "to [the] patience",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": "bil-\u1e63abri",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "tajweed": "\u0628\u0650[h:223[\u0671][l[\u0644]\u0635\u0651\u064e[q:223[\u0628\u0652]\u0631\u0650"
+                },
+                {
+                    "id": 2222,
+                    "position": 10,
+                    "audio_url": null,
+                    "verse_key": "103:3",
+                    "verse_id": 6179,
+                    "location": "103:3:10",
+                    "text_uthmani": "\u0663",
+                    "code_v1": "\ufb61",
+                    "qpc_uthmani_hafs": "\u0663",
+                    "char_type_name": "end",
+                    "page_number": 601,
+                    "line_number": 4,
+                    "text": "\ufb61",
+                    "translation": {
+                        "text": "(3)",
+                        "language_name": "english",
+                        "language_id": 38
+                    },
+                    "transliteration": {
+                        "text": null,
+                        "language_name": "english",
+                        "language_id": 38
+                    }
+                }
+            ],
+            "translations": [
+                {
+                    "id": 910136,
+                    "resource_id": 131,
+                    "text": "except those who have faith, do good, and urge each other to the truth, and urge each other to perseverance.",
+                    "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
+                    "language_id": 38
+                },
+                {
+                    "id": 332963,
+                    "resource_id": 57,
+                    "text": "Illa allatheena amanoowaAAamiloo assalihati watawasaw bilhaqqiwatawasaw bissabr",
+                    "resource_name": "Transliteration",
+                    "language_id": 38
+                }
+            ]
         }
-      ],
-      "translations": [
-        {
-          "id": 910134,
-          "resource_id": 131,
-          "text": "By the \u02f9passage of\u02fa time!",
-          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
-          "language_id": 38
-        },
-        {
-          "id": 332967,
-          "resource_id": 57,
-          "text": "WalAAasr",
-          "resource_name": "Transliteration",
-          "language_id": 38
-        }
-      ]
-    },
-    {
-      "verse_key": "103:2",
-      "text_uthmani": "\u0625\u0650\u0646\u0651\u064e \u0671\u0644\u0652\u0625\u0650\u0646\u0633\u064e\u0640\u0670\u0646\u064e \u0644\u064e\u0641\u0650\u0649 \u062e\u064f\u0633\u0652\u0631\u064d",
-      "words": [
-        {
-          "id": 1056,
-          "position": 1,
-          "audio_url": "wbw/103_002_001.mp3",
-          "verse_key": "103:2",
-          "verse_id": 6178,
-          "location": "103:2:1",
-          "text_uthmani": "\u0625\u0650\u0646\u0651\u064e",
-          "code_v1": "\ufb53",
-          "qpc_uthmani_hafs": "\u0625\u0650\u0646\u0651\u064e",
-          "char_type_name": "word",
-          "page_number": 601,
-          "line_number": 3,
-          "text": "\ufb53",
-          "translation": {
-            "text": "Indeed",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": "inna",
-            "language_name": "english",
-            "language_id": 38
-          }
-        },
-        {
-          "id": 1057,
-          "position": 2,
-          "audio_url": "wbw/103_002_002.mp3",
-          "verse_key": "103:2",
-          "verse_id": 6178,
-          "location": "103:2:2",
-          "text_uthmani": "\u0671\u0644\u0652\u0625\u0650\u0646\u0633\u064e\u0640\u0670\u0646\u064e",
-          "code_v1": "\ufb54",
-          "qpc_uthmani_hafs": "\u0671\u0644\u06e1\u0625\u0650\u0646\u0633\u064e\u0670\u0646\u064e",
-          "char_type_name": "word",
-          "page_number": 601,
-          "line_number": 3,
-          "text": "\ufb54",
-          "translation": {
-            "text": "mankind",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": "l-ins\u0101na",
-            "language_name": "english",
-            "language_id": 38
-          }
-        },
-        {
-          "id": 1058,
-          "position": 3,
-          "audio_url": "wbw/103_002_003.mp3",
-          "verse_key": "103:2",
-          "verse_id": 6178,
-          "location": "103:2:3",
-          "text_uthmani": "\u0644\u064e\u0641\u0650\u0649",
-          "code_v1": "\ufb55",
-          "qpc_uthmani_hafs": "\u0644\u064e\u0641\u0650\u064a",
-          "char_type_name": "word",
-          "page_number": 601,
-          "line_number": 3,
-          "text": "\ufb55",
-          "translation": {
-            "text": "(is) surely, in",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": "laf\u012b",
-            "language_name": "english",
-            "language_id": 38
-          }
-        },
-        {
-          "id": 1059,
-          "position": 4,
-          "audio_url": "wbw/103_002_004.mp3",
-          "verse_key": "103:2",
-          "verse_id": 6178,
-          "location": "103:2:4",
-          "text_uthmani": "\u062e\u064f\u0633\u0652\u0631\u064d",
-          "code_v1": "\ufb56",
-          "qpc_uthmani_hafs": "\u062e\u064f\u0633\u06e1\u0631\u064d",
-          "char_type_name": "word",
-          "page_number": 601,
-          "line_number": 3,
-          "text": "\ufb56",
-          "translation": {
-            "text": "loss",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": "khus'rin",
-            "language_name": "english",
-            "language_id": 38
-          }
-        },
-        {
-          "id": 1060,
-          "position": 5,
-          "audio_url": null,
-          "verse_key": "103:2",
-          "verse_id": 6178,
-          "location": "103:2:5",
-          "text_uthmani": "\u0662",
-          "code_v1": "\ufb57",
-          "qpc_uthmani_hafs": "\u0662",
-          "char_type_name": "end",
-          "page_number": 601,
-          "line_number": 3,
-          "text": "\ufb57",
-          "translation": {
-            "text": "(2)",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": null,
-            "language_name": "english",
-            "language_id": 38
-          }
-        }
-      ],
-      "translations": [
-        {
-          "id": 910135,
-          "resource_id": 131,
-          "text": "Surely humanity is in \u02f9grave\u02fa loss,",
-          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
-          "language_id": 38
-        },
-        {
-          "id": 332965,
-          "resource_id": 57,
-          "text": "Inna al-insana lafee khusr",
-          "resource_name": "Transliteration",
-          "language_id": 38
-        }
-      ]
-    },
-    {
-      "verse_key": "103:3",
-      "text_uthmani": "\u0625\u0650\u0644\u0651\u064e\u0627 \u0671\u0644\u0651\u064e\u0630\u0650\u064a\u0646\u064e \u0621\u064e\u0627\u0645\u064e\u0646\u064f\u0648\u0627\u06df \u0648\u064e\u0639\u064e\u0645\u0650\u0644\u064f\u0648\u0627\u06df \u0671\u0644\u0635\u0651\u064e\u0640\u0670\u0644\u0650\u062d\u064e\u0640\u0670\u062a\u0650 \u0648\u064e\u062a\u064e\u0648\u064e\u0627\u0635\u064e\u0648\u0652\u0627\u06df \u0628\u0650\u0671\u0644\u0652\u062d\u064e\u0642\u0651\u0650 \u0648\u064e\u062a\u064e\u0648\u064e\u0627\u0635\u064e\u0648\u0652\u0627\u06df \u0628\u0650\u0671\u0644\u0635\u0651\u064e\u0628\u0652\u0631\u0650",
-      "words": [
-        {
-          "id": 2213,
-          "position": 1,
-          "audio_url": "wbw/103_003_001.mp3",
-          "verse_key": "103:3",
-          "verse_id": 6179,
-          "location": "103:3:1",
-          "text_uthmani": "\u0625\u0650\u0644\u0651\u064e\u0627",
-          "code_v1": "\ufb58",
-          "qpc_uthmani_hafs": "\u0625\u0650\u0644\u0651\u064e\u0627",
-          "char_type_name": "word",
-          "page_number": 601,
-          "line_number": 3,
-          "text": "\ufb58",
-          "translation": {
-            "text": "Except",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": "ill\u0101",
-            "language_name": "english",
-            "language_id": 38
-          }
-        },
-        {
-          "id": 2214,
-          "position": 2,
-          "audio_url": "wbw/103_003_002.mp3",
-          "verse_key": "103:3",
-          "verse_id": 6179,
-          "location": "103:3:2",
-          "text_uthmani": "\u0671\u0644\u0651\u064e\u0630\u0650\u064a\u0646\u064e",
-          "code_v1": "\ufb59",
-          "qpc_uthmani_hafs": "\u0671\u0644\u0651\u064e\u0630\u0650\u064a\u0646\u064e",
-          "char_type_name": "word",
-          "page_number": 601,
-          "line_number": 3,
-          "text": "\ufb59",
-          "translation": {
-            "text": "those who",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": "alladh\u012bna",
-            "language_name": "english",
-            "language_id": 38
-          }
-        },
-        {
-          "id": 2215,
-          "position": 3,
-          "audio_url": "wbw/103_003_003.mp3",
-          "verse_key": "103:3",
-          "verse_id": 6179,
-          "location": "103:3:3",
-          "text_uthmani": "\u0621\u064e\u0627\u0645\u064e\u0646\u064f\u0648\u0627\u06df",
-          "code_v1": "\ufb5a",
-          "qpc_uthmani_hafs": "\u0621\u064e\u0627\u0645\u064e\u0646\u064f\u0648\u0627\u0652",
-          "char_type_name": "word",
-          "page_number": 601,
-          "line_number": 3,
-          "text": "\ufb5a",
-          "translation": {
-            "text": "believe",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": "\u0101man\u016b",
-            "language_name": "english",
-            "language_id": 38
-          }
-        },
-        {
-          "id": 2216,
-          "position": 4,
-          "audio_url": "wbw/103_003_004.mp3",
-          "verse_key": "103:3",
-          "verse_id": 6179,
-          "location": "103:3:4",
-          "text_uthmani": "\u0648\u064e\u0639\u064e\u0645\u0650\u0644\u064f\u0648\u0627\u06df",
-          "code_v1": "\ufb5b",
-          "qpc_uthmani_hafs": "\u0648\u064e\u0639\u064e\u0645\u0650\u0644\u064f\u0648\u0627\u0652",
-          "char_type_name": "word",
-          "page_number": 601,
-          "line_number": 4,
-          "text": "\ufb5b",
-          "translation": {
-            "text": "and do",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": "wa\u02bfamil\u016b",
-            "language_name": "english",
-            "language_id": 38
-          }
-        },
-        {
-          "id": 2217,
-          "position": 5,
-          "audio_url": "wbw/103_003_005.mp3",
-          "verse_key": "103:3",
-          "verse_id": 6179,
-          "location": "103:3:5",
-          "text_uthmani": "\u0671\u0644\u0635\u0651\u064e\u0640\u0670\u0644\u0650\u062d\u064e\u0640\u0670\u062a\u0650",
-          "code_v1": "\ufb5c",
-          "qpc_uthmani_hafs": "\u0671\u0644\u0635\u0651\u064e\u0670\u0644\u0650\u062d\u064e\u0670\u062a\u0650",
-          "char_type_name": "word",
-          "page_number": 601,
-          "line_number": 4,
-          "text": "\ufb5c",
-          "translation": {
-            "text": "righteous deeds",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": "l-\u1e63\u0101li\u1e25\u0101ti",
-            "language_name": "english",
-            "language_id": 38
-          }
-        },
-        {
-          "id": 2218,
-          "position": 6,
-          "audio_url": "wbw/103_003_006.mp3",
-          "verse_key": "103:3",
-          "verse_id": 6179,
-          "location": "103:3:6",
-          "text_uthmani": "\u0648\u064e\u062a\u064e\u0648\u064e\u0627\u0635\u064e\u0648\u0652\u0627\u06df",
-          "code_v1": "\ufb5d",
-          "qpc_uthmani_hafs": "\u0648\u064e\u062a\u064e\u0648\u064e\u0627\u0635\u064e\u0648\u06e1\u0627\u0652",
-          "char_type_name": "word",
-          "page_number": 601,
-          "line_number": 4,
-          "text": "\ufb5d",
-          "translation": {
-            "text": "and enjoin (each other)",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": "wataw\u0101\u1e63aw",
-            "language_name": "english",
-            "language_id": 38
-          }
-        },
-        {
-          "id": 2219,
-          "position": 7,
-          "audio_url": "wbw/103_003_007.mp3",
-          "verse_key": "103:3",
-          "verse_id": 6179,
-          "location": "103:3:7",
-          "text_uthmani": "\u0628\u0650\u0671\u0644\u0652\u062d\u064e\u0642\u0651\u0650",
-          "code_v1": "\ufb5e",
-          "qpc_uthmani_hafs": "\u0628\u0650\u0671\u0644\u06e1\u062d\u064e\u0642\u0651\u0650",
-          "char_type_name": "word",
-          "page_number": 601,
-          "line_number": 4,
-          "text": "\ufb5e",
-          "translation": {
-            "text": "to the truth",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": "bil-\u1e25aqi",
-            "language_name": "english",
-            "language_id": 38
-          }
-        },
-        {
-          "id": 2220,
-          "position": 8,
-          "audio_url": "wbw/103_003_008.mp3",
-          "verse_key": "103:3",
-          "verse_id": 6179,
-          "location": "103:3:8",
-          "text_uthmani": "\u0648\u064e\u062a\u064e\u0648\u064e\u0627\u0635\u064e\u0648\u0652\u0627\u06df",
-          "code_v1": "\ufb5f",
-          "qpc_uthmani_hafs": "\u0648\u064e\u062a\u064e\u0648\u064e\u0627\u0635\u064e\u0648\u06e1\u0627\u0652",
-          "char_type_name": "word",
-          "page_number": 601,
-          "line_number": 4,
-          "text": "\ufb5f",
-          "translation": {
-            "text": "and enjoin (each other)",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": "wataw\u0101\u1e63aw",
-            "language_name": "english",
-            "language_id": 38
-          }
-        },
-        {
-          "id": 2221,
-          "position": 9,
-          "audio_url": "wbw/103_003_009.mp3",
-          "verse_key": "103:3",
-          "verse_id": 6179,
-          "location": "103:3:9",
-          "text_uthmani": "\u0628\u0650\u0671\u0644\u0635\u0651\u064e\u0628\u0652\u0631\u0650",
-          "code_v1": "\ufb60",
-          "qpc_uthmani_hafs": "\u0628\u0650\u0671\u0644\u0635\u0651\u064e\u0628\u06e1\u0631\u0650",
-          "char_type_name": "word",
-          "page_number": 601,
-          "line_number": 4,
-          "text": "\ufb60",
-          "translation": {
-            "text": "to [the] patience",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": "bil-\u1e63abri",
-            "language_name": "english",
-            "language_id": 38
-          }
-        },
-        {
-          "id": 2222,
-          "position": 10,
-          "audio_url": null,
-          "verse_key": "103:3",
-          "verse_id": 6179,
-          "location": "103:3:10",
-          "text_uthmani": "\u0663",
-          "code_v1": "\ufb61",
-          "qpc_uthmani_hafs": "\u0663",
-          "char_type_name": "end",
-          "page_number": 601,
-          "line_number": 4,
-          "text": "\ufb61",
-          "translation": {
-            "text": "(3)",
-            "language_name": "english",
-            "language_id": 38
-          },
-          "transliteration": {
-            "text": null,
-            "language_name": "english",
-            "language_id": 38
-          }
-        }
-      ],
-      "translations": [
-        {
-          "id": 910136,
-          "resource_id": 131,
-          "text": "except those who have faith, do good, and urge each other to the truth, and urge each other to perseverance.",
-          "resource_name": "Dr. Mustafa Khattab, the Clear Quran",
-          "language_id": 38
-        },
-        {
-          "id": 332963,
-          "resource_id": 57,
-          "text": "Illa allatheena amanoowaAAamiloo assalihati watawasaw bilhaqqiwatawasaw bissabr",
-          "resource_name": "Transliteration",
-          "language_id": 38
-        }
-      ]
-    }
-  ]
+    ]
 }

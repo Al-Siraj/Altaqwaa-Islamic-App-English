@@ -104,7 +104,6 @@
     text-align: left;
     font-family: var(--font_default);
     font-size: calc(var(--font_size_surah) * 0.43);
-    /* line-height: 2rem; */
     margin-top: 1vh;
 }
 
@@ -112,7 +111,6 @@
     text-align: left;
     font-family: var(--font_default);
     font-size: calc(var(--font_size_surah) * 0.43);
-    /* line-height: 2rem; */
     margin-top: 1vh;
 }
 
@@ -121,14 +119,12 @@
     direction: rtl;
     text-align: right;
     word-spacing: 5px;
-    /* line-height: 2rem; */
     cursor: default;
     flex-wrap: wrap;
 }
 
 .arabic_verse_by_words>p {
     line-break: anywhere;
-    /* margin: 1vh 0 4vh 6px; */
     margin: -0.25em 0 0.15em 6px
 }
 
@@ -144,6 +140,10 @@
 
 .hide {
     color: var(--background_body);
+}
+
+.hide>tajweed {
+    color: var(--background_body) !important;
 }
 
 .selected {
@@ -169,9 +169,6 @@
     height: 30px;
     padding: 10px;
     cursor: pointer;
-    /* margin: auto;
-    margin-top: 20px;
-    display: flex; */
     border-radius: 6px;
     animation-duration: 3s;
     transition: 0.25s ease-in-out;
@@ -403,8 +400,27 @@ sup {
     left: 0;
     min-width: 5000px;
     min-height: 5000px;
-    background-color: var(--background_body); /* Semi-transparent black background for example */
-    z-index: 999; /* Adjust the z-index as needed */
+    background-color: var(--background_body);
+    z-index: 999;
     animation-duration: 3s;
     transition: 0.25s ease-in-out;
-  }
+}
+
+.tajweedWord {
+    font-family: 'Kitab';
+    /* font-family: 'Uthmani'; */
+    letter-spacing: 2px;
+    font-size: calc(var(--font_size_surah) * 0.9);
+}
+
+.arabic_verse_by_words .tajweedWord {
+    margin: 0 0 12px 6px;
+}
+
+.arabic_verse_by_words .tajweed_end {
+    margin: -4px 4px 0px 0px;
+}
+
+.font-kitab {
+    font-family: 'Kitab';
+}

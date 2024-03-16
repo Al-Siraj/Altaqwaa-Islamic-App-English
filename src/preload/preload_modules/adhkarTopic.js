@@ -218,7 +218,6 @@ module.exports = function adhkarTopic(fs, path, App_Path, settings, tempSettings
     const toggleTransliteration = document.getElementById('toggleTransliteration');
     const translations = document.querySelectorAll('.translation');
     const transliterations = document.querySelectorAll('.transliteration');
-    const contentDiv = document.getElementById('content');
     toggleTranslation.checked = tempSettings?.adhkarTranslation;
     toggleTransliteration.checked = tempSettings?.adhkarTransliteration;
 
@@ -227,10 +226,15 @@ module.exports = function adhkarTopic(fs, path, App_Path, settings, tempSettings
         settingsMenu.style.display = settingsMenu.style.display == 'none' ? 'grid' : 'none';
     });
 
-    contentDiv.addEventListener('click', function () {
-        settingsMenu.style.display = 'none';
-        playMenu.style.display = 'none';
-    });
+    document.addEventListener('click', (event) => {
+        if (event.target !== playMenu && event.target !== dropdown && !playMenu.contains(event.target))
+            playMenu.style.display = 'none';
+    })
+
+    document.addEventListener('click', (event) => {
+        if (event.target !== settingsMenu && event.target !== settingsButton && !settingsMenu.contains(event.target))
+            settingsMenu.style.display = 'none';
+    })
 
     const toggleTranslationFunc = async function () {
         Array.from(translations).forEach((translation) => {
@@ -335,7 +339,7 @@ module.exports = function adhkarTopic(fs, path, App_Path, settings, tempSettings
     toggleTransliteration.addEventListener('change', toggleTransliterationFunc);
     toggleTranslationFunc();
     toggleTransliterationFunc();
-    window.addEventListener('beforeunload', function (event) {
+    window.addEventListener('beforeunload', function () {
         tempSettings.adhkarTranslation = toggleTranslation.checked;
         tempSettings.adhkarTransliteration = toggleTransliteration.checked;
         fs.writeJsonSync(path.join(App_Path, './data/tempSettings.json'), tempSettings, { spaces: '\t' })

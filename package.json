@@ -28,6 +28,7 @@
     "moment-hijri": "^2.1.2",
     "moment-timezone": "^0.5.41",
     "node-fetch": "^2.6.7",
+    "tajweed": "^1.1.1",
     "v8-compile-cache": "^2.3.0"
   },
   "devDependencies": {
