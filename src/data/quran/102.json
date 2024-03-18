@@ -34,7 +34,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u0623\u064e\u0644\u0652\u0647\u064e[n[\u0640\u0670]\u0643\u064f\u0645\u064f"
+                    "tajweed": "\u0623\u064e\u0644\u0652\u0647\u064e[n[\u0640\u0670]\u0643\u064f\u0645\u064f",
+                    "word_index": 0
                 },
                 {
                     "id": 165,
@@ -60,7 +61,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "[h:14627[\u0671][l[\u0644]\u062a\u0651\u064e\u0643\u064e\u0627\u062b\u064f\u0631\u064f"
+                    "tajweed": "[h:14627[\u0671][l[\u0644]\u062a\u0651\u064e\u0643\u064e\u0627\u062b\u064f\u0631\u064f",
+                    "word_index": 1
                 },
                 {
                     "id": 166,
@@ -85,7 +87,8 @@
                         "text": null,
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "word_index": 2
                 }
             ],
             "translations": [
@@ -133,7 +136,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u062d\u064e\u062a\u0651\u064e\u0649\u0670"
+                    "tajweed": "\u062d\u064e\u062a\u0651\u064e\u0649\u0670",
+                    "word_index": 3
                 },
                 {
                     "id": 1096,
@@ -159,7 +163,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u0632\u064f\u0631\u0652\u062a\u064f\u0645\u064f"
+                    "tajweed": "\u0632\u064f\u0631\u0652\u062a\u064f\u0645\u064f",
+                    "word_index": 4
                 },
                 {
                     "id": 1097,
@@ -185,7 +190,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "[h:14628[\u0671]\u0644\u0652\u0645\u064e\u0642\u064e\u0627\u0628\u0650\u0631\u064e"
+                    "tajweed": "[h:14628[\u0671]\u0644\u0652\u0645\u064e\u0642\u064e\u0627\u0628\u0650\u0631\u064e",
+                    "word_index": 5
                 },
                 {
                     "id": 1098,
@@ -210,7 +216,8 @@
                         "text": null,
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "word_index": 6
                 }
             ],
             "translations": [
@@ -258,7 +265,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u0643\u064e\u0644\u0651\u064e\u0627"
+                    "tajweed": "\u0643\u064e\u0644\u0651\u064e\u0627",
+                    "word_index": 7
                 },
                 {
                     "id": 2158,
@@ -284,7 +292,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u0633\u064e\u0648\u0652\u0641\u064e"
+                    "tajweed": "\u0633\u064e\u0648\u0652\u0641\u064e",
+                    "word_index": 8
                 },
                 {
                     "id": 2159,
@@ -310,7 +319,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u062a\u064e\u0639\u0652\u0644\u064e\u0645[p[\u064f\u0648]\u0646\u064e"
+                    "tajweed": "\u062a\u064e\u0639\u0652\u0644\u064e\u0645[p[\u064f\u0648]\u0646\u064e",
+                    "word_index": 9
                 },
                 {
                     "id": 2160,
@@ -335,7 +345,8 @@
                         "text": null,
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "word_index": 10
                 }
             ],
             "translations": [
@@ -383,7 +394,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u062b\u064f[g[\u0645\u0651]\u064e"
+                    "tajweed": "\u062b\u064f[g[\u0645\u0651]\u064e",
+                    "word_index": 11
                 },
                 {
                     "id": 3511,
@@ -409,7 +421,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u0643\u064e\u0644\u0651\u064e\u0627"
+                    "tajweed": "\u0643\u064e\u0644\u0651\u064e\u0627",
+                    "word_index": 12
                 },
                 {
                     "id": 3512,
@@ -435,7 +448,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u0633\u064e\u0648\u0652\u0641\u064e"
+                    "tajweed": "\u0633\u064e\u0648\u0652\u0641\u064e",
+                    "word_index": 13
                 },
                 {
                     "id": 3513,
@@ -461,7 +475,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u062a\u064e\u0639\u0652\u0644\u064e\u0645[p[\u064f\u0648]\u0646\u064e"
+                    "tajweed": "\u062a\u064e\u0639\u0652\u0644\u064e\u0645[p[\u064f\u0648]\u0646\u064e",
+                    "word_index": 14
                 },
                 {
                     "id": 3514,
@@ -486,7 +501,8 @@
                         "text": null,
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "word_index": 15
                 }
             ],
             "translations": [
@@ -534,7 +550,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u0643\u064e\u0644\u0651\u064e\u0627"
+                    "tajweed": "\u0643\u064e\u0644\u0651\u064e\u0627",
+                    "word_index": 16
                 },
                 {
                     "id": 4893,
@@ -560,7 +577,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u0644\u064e\u0648\u0652"
+                    "tajweed": "\u0644\u064e\u0648\u0652",
+                    "word_index": 17
                 },
                 {
                     "id": 4894,
@@ -586,7 +604,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u062a\u064e\u0639\u0652\u0644\u064e\u0645\u064f\u0648\u0646\u064e"
+                    "tajweed": "\u062a\u064e\u0639\u0652\u0644\u064e\u0645\u064f\u0648\u0646\u064e",
+                    "word_index": 18
                 },
                 {
                     "id": 4895,
@@ -612,7 +631,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u0639\u0650\u0644\u0652\u0645\u064e"
+                    "tajweed": "\u0639\u0650\u0644\u0652\u0645\u064e",
+                    "word_index": 19
                 },
                 {
                     "id": 4896,
@@ -638,7 +658,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "[h:14629[\u0671]\u0644\u0652\u064a\u064e\u0642[p[\u0650\u064a]\u0646\u0650"
+                    "tajweed": "[h:14629[\u0671]\u0644\u0652\u064a\u064e\u0642[p[\u0650\u064a]\u0646\u0650",
+                    "word_index": 20
                 },
                 {
                     "id": 4897,
@@ -663,7 +684,8 @@
                         "text": null,
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "word_index": 21
                 }
             ],
             "translations": [
@@ -711,7 +733,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u0644\u064e\u062a\u064e\u0631\u064e\u0648\u064f[g[\u0646\u0651]\u064e"
+                    "tajweed": "\u0644\u064e\u062a\u064e\u0631\u064e\u0648\u064f[g[\u0646\u0651]\u064e",
+                    "word_index": 22
                 },
                 {
                     "id": 6142,
@@ -737,7 +760,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "[h:14630[\u0671]\u0644\u0652\u062c\u064e\u062d[p[\u0650\u064a]\u0645\u064e"
+                    "tajweed": "[h:14630[\u0671]\u0644\u0652\u062c\u064e\u062d[p[\u0650\u064a]\u0645\u064e",
+                    "word_index": 23
                 },
                 {
                     "id": 6143,
@@ -762,7 +786,8 @@
                         "text": null,
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "word_index": 24
                 }
             ],
             "translations": [
@@ -810,7 +835,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u062b\u064f[g[\u0645\u0651]\u064e"
+                    "tajweed": "\u062b\u064f[g[\u0645\u0651]\u064e",
+                    "word_index": 25
                 },
                 {
                     "id": 7441,
@@ -836,7 +862,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u0644\u064e\u062a\u064e\u0631\u064e\u0648\u064f[g[\u0646\u0651]\u064e\u0647\u064e\u0627"
+                    "tajweed": "\u0644\u064e\u062a\u064e\u0631\u064e\u0648\u064f[g[\u0646\u0651]\u064e\u0647\u064e\u0627",
+                    "word_index": 26
                 },
                 {
                     "id": 7442,
@@ -862,7 +889,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u0639\u064e\u064a\u0652\u0646\u064e"
+                    "tajweed": "\u0639\u064e\u064a\u0652\u0646\u064e",
+                    "word_index": 27
                 },
                 {
                     "id": 7443,
@@ -888,7 +916,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "[h:14631[\u0671]\u0644\u0652\u064a\u064e\u0642[p[\u0650\u064a]\u0646\u0650"
+                    "tajweed": "[h:14631[\u0671]\u0644\u0652\u064a\u064e\u0642[p[\u0650\u064a]\u0646\u0650",
+                    "word_index": 28
                 },
                 {
                     "id": 7444,
@@ -913,7 +942,8 @@
                         "text": null,
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "word_index": 29
                 }
             ],
             "translations": [
@@ -961,7 +991,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u062b\u064f[g[\u0645\u0651]\u064e"
+                    "tajweed": "\u062b\u064f[g[\u0645\u0651]\u064e",
+                    "word_index": 30
                 },
                 {
                     "id": 8679,
@@ -987,7 +1018,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u0644\u064e\u062a\u064f\u0633\u0652\u0640\u0640\u0654\u064e\u0644\u064f[g[\u0646\u0651]\u064e"
+                    "tajweed": "\u0644\u064e\u062a\u064f\u0633\u0652\u0640\u0640\u0654\u064e\u0644\u064f[g[\u0646\u0651]\u064e",
+                    "word_index": 31
                 },
                 {
                     "id": 8680,
@@ -1013,7 +1045,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u064a\u064e\u0648\u0652\u0645\u064e\u0626\u0650\u0630\u064d"
+                    "tajweed": "\u064a\u064e\u0648\u0652\u0645\u064e\u0626\u0650\u0630\u064d",
+                    "word_index": 32
                 },
                 {
                     "id": 8681,
@@ -1039,7 +1072,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "\u0639\u064e\u0646\u0650"
+                    "tajweed": "\u0639\u064e\u0646\u0650",
+                    "word_index": 33
                 },
                 {
                     "id": 8682,
@@ -1065,7 +1099,8 @@
                         "language_name": "english",
                         "language_id": 38
                     },
-                    "tajweed": "[h:14632[\u0671][l[\u0644][g[\u0646\u0651]\u064e\u0639[p[\u0650\u064a]\u0645\u0650"
+                    "tajweed": "[h:14632[\u0671][l[\u0644][g[\u0646\u0651]\u064e\u0639[p[\u0650\u064a]\u0645\u0650",
+                    "word_index": 34
                 },
                 {
                     "id": 8683,
@@ -1090,7 +1125,8 @@
                         "text": null,
                         "language_name": "english",
                         "language_id": 38
-                    }
+                    },
+                    "word_index": 35
                 }
             ],
             "translations": [

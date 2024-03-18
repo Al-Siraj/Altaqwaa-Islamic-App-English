@@ -17,6 +17,7 @@
     white-space: nowrap;
     border: 1px solid var(--white);
     font-family: var(--font_default);
+    letter-spacing: normal;
     transition: 0.25s;
     cursor: default;
 }

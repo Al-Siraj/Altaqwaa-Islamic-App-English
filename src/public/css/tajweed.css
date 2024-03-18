@@ -29,7 +29,8 @@ tajweed.ikhf {
 }
 
 tajweed.ikhf_shfw {
-    color: #D500B7;
+    /* color: #D500B7; */
+    color: #3caa6a;
 }
 
 tajweed.idghm_shfw {

@@ -119,6 +119,12 @@
                 </svg>
                 <div class="settings-menu">
                     <label>
+                        <input type="checkbox" id="toggleMushaf"> Mushaf
+                    </label>
+                    <label>
+                        <input type="checkbox" id="toggleTajweed"> Tajweed
+                    </label>
+                    <label>
                         <input type="checkbox" id="toggleTranslation"> Translation
                     </label>
                     <label>
@@ -126,9 +132,6 @@
                     </label>
                     <label>
                         <input type="checkbox" id="enableAutoScroll"> Auto-Scroll
-                    </label>
-                    <label>
-                        <input type="checkbox" id="toggleTajweed"> Tajweed
                     </label>
                 </div>
             </div>
@@ -140,11 +143,11 @@
                 <h1 id="surah_name"></h1>
                 <p id="surah_en_name"></p>
             </div>
+            <div id="bsmlh"></div>
 
             <div id="Surah_Content" >
-                <!-- <div id="overlay"></div> -->
-                <p id="bsmlh"></p>
-                <p id="surah_text"></p>
+                <div id="surah_text"></div>
+                <div id="mushaf"></div>
             </div>
             <div id="audioPlayer" class="hidden">
                 <div class="button-container">

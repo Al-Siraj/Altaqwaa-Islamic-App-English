@@ -2,14 +2,6 @@ const url = require('url');
 const querystring = require('querystring');
 const Tajweed = require('tajweed').Tajweed
 
-function capitalizeFirstLetter(string) {
-    return string[0].toUpperCase() + string.slice(1);
-}
-
-function flattenArrays(arrays) {
-    return [].concat(...arrays);
-}
-
 function searchIndex(arr, target) {
     let end = arr.length;
     if (end == 0) return -1;
@@ -62,7 +54,7 @@ function searchValues(objects, searchKeys, indLoop = false) {
 
 function extractText(arr) {
     var textValues = arr.map(function (obj) {
-        return `<p class="word tooltip">${obj.text}</p>`;
+        return obj.char_type_name == 'word' ? `<p class="word tooltip">${obj.text}</p>` : `<p class="word tooltip tajweed_end">${obj.text}</p>`
     });
     return textValues.join('');
 }
@@ -82,28 +74,49 @@ function extractTajweed(arr) {
     return textValues.join('');
 }
 
-module.exports = function Quran(fs, path, App_Path, settings, tempSettings) {
-    function readFilesInDirectory(directoryPath) {
-        const files = fs.readdirSync(directoryPath);
-        const result = {};
-        files.forEach((fileName) => {
-            const filePath = path.join(directoryPath, fileName);
-            const fileContent = fs.readFileSync(filePath, 'utf-8');
-            result[path.parse(fileName).name] = fileContent;
-        });
-        return result;
+function findBreaks(verses) {
+    let currentLine = verses[0].words[0].line_number;
+    let currentPage = verses[0].words[0].page_number;
+    let pageIndices = [0];
+    let lineIndices = [0];
+    let wordCount = 0;
+
+    for (let i = 0; i < verses.length; i++) {
+        if (currentPage != verses[i].words[0].page_number) {
+            currentPage = verses[i].words[0].page_number;
+            pageIndices.push(wordCount);
+        } else currentPage = verses[i].words[0].page_number;
+        for (let j = 0; j < verses[i].words.length; j++) {
+            wordCount++;
+            if (currentLine != verses[i].words[j].line_number) {
+                currentLine = verses[i].words[j].line_number;
+                lineIndices.push(wordCount - 1);
+            } else currentLine = verses[i].words[j].line_number;
+        }
     }
+    return { pageIndices, lineIndices };
+}
+
+function findNearestLessThan(array, input) {
+    for (let i = 0; i < array.length; i++) if (array[i] > input) return array[i - 1];
+    return array[array.length - 1];
+}
+
+module.exports = function Quran(fs, path, App_Path, settings, tempSettings) {
     const svgMap = readFilesInDirectory(path.join(__dirname, `../../public/icon/svg`))
     const parsedUrl = url.parse(window.location.href);
     const parsedQuery = querystring.parse(parsedUrl.query);
     const id = parsedQuery.id ? parsedQuery.id : fs.readJsonSync(path.join(App_Path, './data/Now.json')).id;
     if (id == 0) window.location.href = './surah.html'
     const surahJson = fs.readJsonSync(path.join(__dirname, `../../data/quran/${id}.json`));
-    const englishWords = searchValues(surahJson['verses'], ['words', 'translation', 'text'])
+    const englishWords = searchValues(surahJson['verses'], ['words', 'translation', 'text']);
+    const versesJson = surahJson.verses;
     const audioJson = fs.readJsonSync(path.join(__dirname, `../../data/verse_segments/${id}.json`));
     const verseSegments = audioJson.verse_timings;
     const footnoteJson = fs.readJsonSync(path.join(__dirname, `../../data/footnotes/${id}.json`));
-
+    const surahContainer = document.getElementById('surah_text');
+    const mushafContainer = document.getElementById('mushaf');
+    const { pageIndices, lineIndices } = findBreaks(versesJson);
     let dark_mode = settings?.dark_mode
     let verseIndex = 0;
     let verseUserIndex = 0;
@@ -117,18 +130,47 @@ module.exports = function Quran(fs, path, App_Path, settings, tempSettings) {
     document.getElementById('bsmlh').innerHTML = (id === '9' | id === '1') ? '' : svgMap.bsml
 
     // Insert verses/text
-    let surahContainer = document.getElementById('surah_text');
-    for (let verse of surahJson.verses.slice(0, 10)) {
-        let verse_container = document.createElement("div");
-        verse_container.className = 'verse_container'
-        let style = `font-family: 'p${verse.words[0].page_number}';`
-        verse_container.innerHTML = `<div class="arabic_verse_by_words uthmani" style="${style}">${extractText(verse.words)}</div>
-                                     <div class="arabic_verse_by_words tajweed" style="${style}">${extractTajweed(verse.words)}</div>
-                                     <div class="translated_verse">${verse.translations[0].text}</div>
-                                     <div class="footnote_container" note="" style="display: none"></div>
-                                     <div class="transliterated_verse">${verse.translations[1].text}</div>`
-        surahContainer.appendChild(verse_container);
+    const renderVerses = (start, end) => {
+        for (let verse of versesJson.slice(start, end)) {
+            let verse_container = document.createElement("div");
+            verse_container.className = 'verse_container'
+            let style = `font-family: 'p${verse.words[0].page_number}';`
+            verse_container.innerHTML = `<div class="arabic_verse_by_words uthmani" style="${style}">${extractText(verse.words)}</div>
+                                         <div class="arabic_verse_by_words tajweed" style="${style}">${extractTajweed(verse.words)}</div>
+                                         <div class="translated_verse">${verse.translations[0].text}</div>
+                                         <div class="footnote_container" note="" style="display: none"></div>
+                                         <div class="transliterated_verse">${verse.translations[1].text}</div>`
+            surahContainer.appendChild(verse_container);
+        }
     }
+
+    const renderMushaf = (start, end) => {
+        let page_container, line_container, font, page;
+        let currentPage = 0;
+        let words = searchValues(versesJson, ['words']).flat();
+        for (let i = 0; i < lineIndices.length; i++) {
+            if (pageIndices[currentPage] == lineIndices[i]) {
+                currentPage++;
+                page = words[lineIndices[i]].page_number;
+                if (currentPage < start) continue;
+                if (currentPage > start) page_container.innerHTML += `<p class="page_number">${page - 1}</p>`
+                if (currentPage == end + 1) return;
+                font = 'p' + page;
+                page_container = document.createElement("div");
+                page_container.className = 'page_container'
+                page_container.style.fontFamily = font;
+                mushafContainer.appendChild(page_container)
+            }
+            if (currentPage < start) continue;
+            line_container = document.createElement("div");
+            line_container.className = 'line_container';
+            line_container.innerHTML = `<div class="uthmaniLine">${extractText(words.slice(lineIndices[i], lineIndices[i + 1]))}</div>`
+            line_container.innerHTML += `<div class="tajweedLine">${extractTajweed(words.slice(lineIndices[i], lineIndices[i + 1]))}</div>`
+            page_container.appendChild(line_container);
+        }
+        if (page_container) page_container.innerHTML += `<p class="page_number">${page}</p>`;
+    }
+
     // Settings
     const settingsButton = document.getElementById('settings_button');
     const settingsMenu = document.querySelector('.settings-menu');
@@ -136,15 +178,21 @@ module.exports = function Quran(fs, path, App_Path, settings, tempSettings) {
     const toggleTransliteration = document.getElementById('toggleTransliteration');
     const enableAutoScroll = document.getElementById('enableAutoScroll');
     const toggleTajweed = document.getElementById('toggleTajweed');
+    const toggleMushaf = document.getElementById('toggleMushaf');
     const translations = document.getElementsByClassName('translated_verse');
     const transliterations = document.getElementsByClassName('transliterated_verse');
     const footnoteContainers = document.getElementsByClassName('footnote_container');
     const uthmaniVerses = document.getElementsByClassName("uthmani");
     const tajweedVerses = document.getElementsByClassName("tajweed");
+    const uthmaniLines = document.getElementsByClassName("uthmaniLine");
+    const tajweedLines = document.getElementsByClassName("tajweedLine");
     toggleTranslation.checked = tempSettings?.quranTranslation;
     toggleTransliteration.checked = tempSettings?.quranTransliteration;
     enableAutoScroll.checked = tempSettings?.enableAutoScroll;
     toggleTajweed.checked = tempSettings?.tajweed;
+    toggleMushaf.checked = tempSettings?.mushaf;
+
+    toggleMushaf.checked ? renderMushaf(1, 2) : renderVerses(0, 10);
 
     settingsMenu.style.display = 'none';
     settingsButton.addEventListener('click', function () {
@@ -168,37 +216,65 @@ module.exports = function Quran(fs, path, App_Path, settings, tempSettings) {
         });
     }
 
-    const toggleTajweedFunc = async function () {
-        Array.from(uthmaniVerses).forEach((verse) => {
-            verse.style.display = toggleTajweed.checked ? 'none' : 'block';
-        });
-        Array.from(tajweedVerses).forEach((verse) => {
-            verse.style.display = toggleTajweed.checked ? 'block' : 'none';
-        });
+    const toggleTajweedFunc = async function (all = false) {
+        if (all) {
+            Array.from(uthmaniLines).forEach((verse) => {
+                verse.style.display = toggleTajweed.checked ? 'none' : 'block';
+            });
+            Array.from(tajweedLines).forEach((verse) => {
+                verse.style.display = toggleTajweed.checked ? 'flex' : 'none';
+            });
+            Array.from(uthmaniVerses).forEach((verse) => {
+                verse.style.display = toggleTajweed.checked ? 'none' : 'block';
+            });
+            Array.from(tajweedVerses).forEach((verse) => {
+                verse.style.display = toggleTajweed.checked ? 'block' : 'none';
+            });
+        } else if (toggleMushaf.checked) {
+            Array.from(uthmaniLines).forEach((verse) => {
+                verse.style.display = toggleTajweed.checked ? 'none' : 'block';
+            });
+            Array.from(tajweedLines).forEach((verse) => {
+                verse.style.display = toggleTajweed.checked ? 'flex' : 'none';
+            });
+        } else {
+            Array.from(uthmaniVerses).forEach((verse) => {
+                verse.style.display = toggleTajweed.checked ? 'none' : 'block';
+            });
+            Array.from(tajweedVerses).forEach((verse) => {
+                verse.style.display = toggleTajweed.checked ? 'block' : 'none';
+            });
+        }
+    }
+
+    const toggleMushafFunc = async function () {
+        surahContainer.style.display = toggleMushaf.checked ? 'none' : 'block';
+        mushafContainer.style.display = toggleMushaf.checked ? 'block' : 'none';
     }
 
     toggleTranslation.addEventListener('change', toggleTranslationFunc);
     toggleTransliteration.addEventListener('change', toggleTransliterationFunc);
     toggleTajweed.addEventListener('change', toggleTajweedFunc);
+    toggleMushaf.addEventListener('change', toggleMushafFunc);
     toggleTranslationFunc();
     toggleTransliterationFunc();
     toggleTajweedFunc();
+    toggleMushafFunc();
 
     const loadRemainder = () => {
-        for (let verse of surahJson.verses.slice(10)) {
-            let verse_container = document.createElement("div");
-            verse_container.className = 'verse_container'
-            let style = `font-family: 'p${verse.words[0].page_number}';`
-            verse_container.innerHTML = `<div class="arabic_verse_by_words uthmani" style="${style}">${extractText(verse.words)}</div>
-                                         <div class="arabic_verse_by_words tajweed" style="${style}">${extractTajweed(verse.words)}</div>
-                                         <div class="translated_verse">${verse.translations[0].text}</div>
-                                         <div class="footnote_container" note="" style="display: none"></div>
-                                         <div class="transliterated_verse">${verse.translations[1].text}</div>`
-            surahContainer.appendChild(verse_container);
-        };
+        if (toggleMushaf.checked) {
+            renderMushaf(3, 1000);
+            renderVerses(0, versesJson.length);
+        } else {
+            renderMushaf(1, 1000);
+            renderVerses(10, versesJson.length);
+        }
+
         toggleTranslationFunc();
         toggleTransliterationFunc();
-        toggleTajweedFunc();
+        toggleTajweedFunc(true);
+        toggleMushafFunc();
+
         let footnotes = document.querySelectorAll("sup");
         Array.from(footnotes).forEach((footnote) => {
             const footnoteContainer = footnote.parentNode.nextElementSibling;
@@ -219,10 +295,10 @@ module.exports = function Quran(fs, path, App_Path, settings, tempSettings) {
 
         // Define page elements
         const verses = document.getElementsByClassName("verse_container");
-        const arabicVerses = document.getElementsByClassName("arabic_verse_by_words");
+        const arabicVerses = document.querySelectorAll(".arabic_verse_by_words, .uthmaniLine, .tajweedLine");
         const words = document.getElementsByClassName("word");
-        const uthmaniWords = document.querySelectorAll(".uthmani>p");
-        const tajweedWords = document.querySelectorAll(".tajweed>p");
+        const uthmaniWords = document.querySelectorAll(".uthmani>p, .uthmaniLine>p");
+        const tajweedWords = document.querySelectorAll(".tajweed>p, .tajweedLine>p");
 
         // Audio Player/Controls
         const icon_mp3 = document.getElementById('icon_mp3')
@@ -348,21 +424,32 @@ module.exports = function Quran(fs, path, App_Path, settings, tempSettings) {
         let prevVerseIndex, prevWordIndex, trueWordIndex
 
         function highlightWord(verseInd, wordInd) {
-            let verses = toggleTajweed.checked ? tajweedVerses : uthmaniVerses;
-            verses[verseInd].children[wordInd].classList.add("playing");
-            try {
-                if (wordInd != prevWordIndex || verseInd != prevVerseIndex) verses[prevVerseIndex].children[prevWordIndex].classList.remove("playing");
-                if (verseInd != prevVerseIndex && enableAutoScroll.checked) scrollToVerse(verseInd);
-            } catch { }
-            [prevVerseIndex, prevWordIndex] = [verseInd, wordInd]
+            if (toggleMushaf.checked) {
+                let words = toggleTajweed.checked ? tajweedWords : uthmaniWords;
+                let wordLineInd = versesJson[verseInd].words[wordInd].word_index;
+                words[wordLineInd + words.length / 2].classList.add("playing");
+                try {
+                    let prevWordLineInd = versesJson[prevVerseIndex].words[prevWordIndex].word_index;
+                    if (wordInd != prevWordIndex || verseInd != prevVerseIndex) words[prevWordLineInd + words.length / 2].classList.remove("playing");
+                    if (verseInd != prevVerseIndex && enableAutoScroll.checked) scrollToVerse(verseInd);
+                } catch { }
+            } else {
+                let verses = toggleTajweed.checked ? tajweedVerses : uthmaniVerses;
+                verses[verseInd].children[wordInd].classList.add("playing");
+                try {
+                    if (wordInd != prevWordIndex || verseInd != prevVerseIndex) verses[prevVerseIndex].children[prevWordIndex].classList.remove("playing");
+                    if (verseInd != prevVerseIndex && enableAutoScroll.checked) scrollToVerse(verseInd);
+                } catch { }
+            }
+            [prevVerseIndex, prevWordIndex] = [verseInd, wordInd];
         }
 
         audio.addEventListener("timeupdate", function () {
             if (playing) {
                 let currentTime = audio.currentTime * 1000;
-                verseIndex = searchIndex(verseStartTimes, currentTime)
-                wordIndex = searchIndex(wordStartTimes[verseIndex], currentTime)
-                trueWordIndex = wordStartTimesArray[verseIndex][wordIndex][0] - 1
+                verseIndex = searchIndex(verseStartTimes, currentTime);
+                wordIndex = searchIndex(wordStartTimes[verseIndex], currentTime);
+                trueWordIndex = wordStartTimesArray[verseIndex][wordIndex][0] - 1;
                 highlightWord(verseIndex, trueWordIndex);
             }
         });
@@ -446,7 +533,6 @@ module.exports = function Quran(fs, path, App_Path, settings, tempSettings) {
                 playInRangeBtn.innerHTML = '<span class="tooltiptext">Repeat Range</span>' + svgMap.repeat
                 rangeStage = 0
             }
-            settingsMenu.style.display = 'none';
         });
 
         document.addEventListener('click', (event) => {
@@ -541,6 +627,7 @@ module.exports = function Quran(fs, path, App_Path, settings, tempSettings) {
             });
         }
 
+        // Tooltips
         function attachTooltip(word, index) {
             if (!word.parentElement.classList.contains('clicked')) {
                 word.classList.remove("hide");
@@ -561,18 +648,22 @@ module.exports = function Quran(fs, path, App_Path, settings, tempSettings) {
         }
 
         Array.from(uthmaniWords).forEach((word, index) => {
-            word.addEventListener("mouseover", () => attachTooltip(word, index));
+            let wrap = uthmaniWords.length / 2 - 1;
+            let ind = index > wrap ? index - wrap - 1 : index;
+            word.addEventListener("mouseover", () => attachTooltip(word, ind));
             word.addEventListener("mouseout", () => removeTooltip(word));
         });
 
         Array.from(tajweedWords).forEach((word, index) => {
-            word.addEventListener("mouseover", () => attachTooltip(word, index));
+            let wrap = tajweedWords.length / 2 - 1;
+            let ind = index > wrap ? index - wrap - 1 : index;
+            word.addEventListener("mouseover", () => attachTooltip(word, ind));
             word.addEventListener("mouseout", () => removeTooltip(word));
         });
 
         showTooltipsButton.addEventListener("click", () => {
-            showTooltips = !showTooltips
-            showTooltipsButton.classList.toggle('selected')
+            showTooltips = !showTooltips;
+            showTooltipsButton.classList.toggle('selected');
         })
 
         window.addEventListener('beforeunload', function () {
@@ -580,10 +671,22 @@ module.exports = function Quran(fs, path, App_Path, settings, tempSettings) {
             tempSettings.quranTransliteration = toggleTransliteration.checked;
             tempSettings.enableAutoScroll = enableAutoScroll.checked;
             tempSettings.tajweed = toggleTajweed.checked;
+            tempSettings.mushaf = toggleMushaf.checked;
             fs.writeJsonSync(path.join(App_Path, './data/tempSettings.json'), tempSettings, { spaces: '\t' })
         });
 
     };
+    function readFilesInDirectory(directoryPath) {
+        const files = fs.readdirSync(directoryPath);
+        const result = {};
+        files.forEach((fileName) => {
+            const filePath = path.join(directoryPath, fileName);
+            const fileContent = fs.readFileSync(filePath, 'utf-8');
+            result[path.parse(fileName).name] = fileContent;
+        });
+        return result;
+    }
     if (surahJson.versesCount < 20) loadRemainder();
-    else setTimeout(loadRemainder, 500); // 5000 milliseconds = 5 seconds
+    else setTimeout(loadRemainder, 500);
+
 }

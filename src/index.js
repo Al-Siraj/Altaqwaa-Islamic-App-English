@@ -90,7 +90,7 @@ app.on('ready', async (e) => {
             setTimeout(() => {
                 loadingWindow?.close();
                 win?.show();
-                win?.webContents.openDevTools();
+                // win?.webContents.openDevTools();
             }, 1000);
         }
 
